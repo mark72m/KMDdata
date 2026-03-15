@@ -1,0 +1,955 @@
+name,UIC,knec_code,region,county,sub_county,division,zone,lat,lon
+KATKAMUMA PRIMARY,,,,Baringo,Baringo Central,,,1.899,1.6
+KOYORUS,,,,Baringo,Baringo Central,,,25.0,35.0
+Burburet,,,,Baringo,Baringo North,,,52.201969,7.41725
+KAIMOGOL PRIMARY SCHOOL,,,,Baringo,Baringo North,,,36.0,35.0
+KAPTILOMWO PRIMARY SCHOOL,,,,Baringo,Baringo North,,,16.177749,-88.02782
+KONOO PRIMARY SCHOOL,,,,Baringo,Baringo North,,,-70.699951,121.55224
+Kipkolony,,,,Baringo,Baringo North,,,21.921071,162.262648
+SEREMWO,,,,Baringo,Baringo North,,,1e-06,1e-06
+TOROLOKWONIN DAY AND BOARDING PRIMARY,,,,Baringo,Baringo North,,,50.000193,34.996687
+KIPKUYANG PRIMARY SCHOOL,,,,Baringo,Koibatek,,,82.893965,80.205985
+LALUT  SCHOOL,,,,Baringo,Koibatek,,,40.880295,-77.826132
+KOKWOMOI OMPREHENSIVE SCHOOL,,,,Baringo,Marigat,,,53.938848,92.912979
+POI HILL ECD PRIMARY SCHOOL,,,,Baringo,Marigat,,,0.3579224,30.034511
+CHEMUTUNG PRIMARY SCHOOL,,,,Baringo,Mogotio,,,37.614231,-24.355212
+KAPLAIMOI,,,,Baringo,Mogotio,,,35.7373,35.4414
+KIPKIGEI PRIMARY SCHOOL,,,,Baringo,Mogotio,,,7.297088,-48.726914
+KIPTOIM PRIMARY,,,,Baringo,Mogotio,,,41.411862,53.743762
+KIRIBOT,,,,Baringo,Mogotio,,,7e-06,7e-06
+Kimngorom Day and Boarding Primary school,,,,Baringo,Mogotio,,,4.796211,-74.323306
+CHERUMBO PRY,,,,Baringo,Tiaty East,,,43.3,36.223
+Chepilat,,,,Baringo,Tiaty East,,,36.001411,43.995988
+MATUNDA PRIMARY SCHOOL,,,,Baringo,Tiaty East,,,8.146243,-71.25
+Tilingwo,,,,Baringo,Tiaty East,,,13.5,62.75
+Chesawach,,,,Baringo,Tiaty West,,,1.174,136.055
+LOIWAT BOARDING PRI,,,,Baringo,Tiaty West,,,-75.15,39.985
+Molok primary school,,,,Baringo,Tiaty West,,,-16.94647,-115.488831
+ST MARY'S KAKAPUL,,,,Baringo,Tiaty West,,,20.571082,-54.743272
+Changina primary school,,,,Bomet,Bomet Central,,,0.79311,32.2462
+MOBURO PRIMARY SCHOOL,,,,Bomet,Bomet Central,,,51.454007,51.121013
+MOGOIWET PRIM ARY SCHOOL,,,,Bomet,Bomet Central,,,64.4429,-14.976478
+MOUNT SUGUTEK,,,,Bomet,Bomet Central,,,-0.683424,-35.343036
+Ngocho schools,,,,Bomet,Bomet Central,,,2.32846,16.039944
+SILIBWET PRIMARY,,,,Bomet,Bomet Central,,,51.991609,4.206592
+HIGHLAND PRIMARY,,,,Bomet,Chepalungu,,,43.201766,3.594577
+Lelechwet primary school,,,,Bomet,Chepalungu,,,-0.79503,-35.305
+Marangetit Primary school,,,,Bomet,Chepalungu,,,44.999767,89.215086
+SAGENYA PRIMARY,,,,Bomet,Chepalungu,,,44.853245,19.546128
+TILYOT PRIMARY SCHOOL,,,,Bomet,Chepalungu,,,42.1768892,-70.9352913
+Changana,,,,Bomet,Konoin,,,36.759722,68.920009
+Chebaibai,,,,Bomet,Konoin,,,35.15,31.01
+KAPSIR PRIMARY SCHOOL,,,,Bomet,Konoin,,,-0.499536,3.201498
+Kipketii,,,,Bomet,Konoin,,,0.423744404235073,0.0492920551914722
+TEMBWET PRIMARY SCHOOL,,,,Bomet,Konoin,,,47.909992,-62.349074
+CHEPKALWAL PRIMARY SCHOOL,,,,Bomet,Sotik,,,8.522287,-321.47816
+KAMESWON,,,,Bomet,Sotik,,,-7.951917,113.950898
+KAPCHEPKOSIOM PRIMARY SCHOOL,,,,Bomet,Sotik,,,-0.3893,-35.17361
+KAPCHERIRE COMPREHENSIVE SCHOOL,,,,Bomet,Sotik,,,33.738045,-31.287722
+KIPTORBEI PRIMARY SCHOOL,,,,Bomet,Sotik,,,46.48,355.55
+Kapolesobei comprehensive,,,,Bomet,Sotik,,,5.627261,31.833295
+Kapsiongo Primary School,,,,Bomet,Sotik,,,-38.409398,-72.790071
+MOITA PRIMARY SCHOOL of,,,,Bomet,Sotik,,,0.5355,0.29999
+NGAINET PRIMARY,,,,Bomet,Sotik,,,-1.651663,132.367167
+Ngariet primary school,,,,Bomet,Sotik,,,11.560005,-36.498973
+Sironet primary,,,,Bomet,Sotik,,,-52.447117,-12.340608
+Siryat primary,,,,Bomet,Sotik,,,40.741895,73.989308
+Namakhele primary,,,,Bungoma,Bungoma Central,,,-31.775085,-43.005472
+Nangili RC primary,,,,Bungoma,Bungoma Central,,,-28.537608,36.387638
+SIKATA RC PRIMARY SCHOOL,,,,Bungoma,Bungoma Central,,,45.14914,11.82057
+ICFEM HAFOLAND PRIMARY SCHOOL,,,,Bungoma,Bungoma North,,,4.5246,58.3248
+MILIMA RIVERSIDE FYM COMPREHNESIVE SCHOOL,,,,Bungoma,Bungoma North,,,2.5868,49.4448
+Naitiri FYM PRY,,,,Bungoma,Bungoma North,,,27.0204,77.4977
+CENTRAL BAPTIST PRIMARY SCHOOL,,,,Bungoma,Bungoma South,,,2.3e-05,6.7e-05
+NABUKHISA CC PRIMARY SCHOOL,,,,Bungoma,Bungoma South,,,29.190533,-26.006491
+Nakoyonjo D. E. B Primary,,,,Bungoma,Bungoma South,,,-4.215665,5.415194
+KULISIRU FYM PRIMARY,,,,Bungoma,Bungoma West,,,36.491973,-8.876788
+kakala rc,,,,Bungoma,Bungoma West,,,4.2e-05,3.8e-05
+Mwiyenga ack primary school,,,,Bungoma,Kimaeti,,,10.24501,88.0
+ST PETER'S RC MAKUMU SCHOOL,,,,Bungoma,Kimaeti,,,-63.220327,-99.732826
+TULUKUYI RC PRIMARY,,,,Bungoma,Kimaeti,,,83.0,84.0
+NASIANDA SA,,,,Bungoma,Kimilili,,,-0.19764697,0.79401785
+KIMURIO RCEA PRIMARY SCHOOL,,,,Bungoma,Kipsiro,,,-24.110662,-23.175364
+RWANDA SA,,,,Bungoma,Kipsiro,,,35.00486,52.994949
+KAPSOKWONY DEB,,,,Bungoma,Mt. Elgon,,,23.120154,17.847678
+KIMININI FYM,,,,Bungoma,Tongaren,,,53.67068,-22.948083
+MILELE FYM PRIMARY,,,,Bungoma,Tongaren,,,0.79344,1e-06
+TABANI RC,,,,Bungoma,Tongaren,,,0.91927,0.86977
+Khalumuli junior school,,,,Bungoma,Webuye West,,,58.541693,34.723863
+NAMILIMO KETC PRIMARY,,,,Bungoma,Webuye West,,,-28.659744,148.781249
+BUMADEYA PRIMARY SCHOOL,,,,Busia,Bunyula,,,-88.307981,-348.75
+Sifugwe Primary School,,,,Busia,Bunyula,,,34.00472,34.0339
+St Meltus Saka Primary School,,,,Busia,Butula,,,14.543799,-90.557569
+MWENGE PRIMARY SCHOOL,,,,Busia,Nambale,,,-1.2841368155,-1.2841
+NANG`ENI JUNIOR SCHOOL,,,,Busia,Nambale,,,-2.948527,11.103629
+ACUNET primary School,,,,Busia,Teso Central,,,-2.874465,100.835776
+ACK CHAMASIRI,,,,Busia,Teso North,,,33.12774,-30.686846
+ATABA OBURI PRIMARY SCHOOL,,,,Busia,Teso North,,,31.24448,-15.931841
+GARA PRIMARY,,,,Busia,Teso North,,,46.0319,19.0428
+GOROMAIT JSS,,,,Busia,Teso North,,,35.924645,10.823024
+KABUKUI PRIMARY,,,,Busia,Teso North,,,-33.9119,28.2848
+KATANYU PRIMARY SCHOOL,,,,Busia,Teso North,,,33.614619,-8.876788
+MODING PRIMARY SCHOOL,,,,Busia,Teso North,,,18.521283,3.787377
+OPAARE R.C PRIMARY,,,,Busia,Teso North,,,53.839564,23.99674
+OSOPOTOIT PRIMARY SCHOOL,,,,Busia,Teso North,,,3.496972,3.463572
+ST JOHN KASOGOL KAPEL SCHOOL hi,,,,Busia,Teso North,,,36.0,34.0
+ST. CHARLES AKUDIET RC,,,,Busia,Teso North,,,36.0,34.0
+Bugar Special School for the mentally challenged,,,,Elgeyo/Marakwet,Keiyo North,,,31.686164,-1.359429
+CHEGILET PRIMARY SCHOOL,,,,Elgeyo/Marakwet,Keiyo North,,,41.000001,36.000001
+USWO PRIMARY SCHOOL,,,,Elgeyo/Marakwet,Keiyo North,,,-63.596398,-70.654664
+Chepkorio primary and junior secondary school,,,,Elgeyo/Marakwet,Keiyo South,,,9.0,3.0
+Kapsoo mixed day and boarding primary,,,,Elgeyo/Marakwet,Keiyo South,,,27.948406,80.795638
+MOLOL PRIMARY SCHOOL,,,,Elgeyo/Marakwet,Keiyo South,,,-45.44632,55.798633
+MOSORTO PRIMARY,,,,Elgeyo/Marakwet,Keiyo South,,,3.5e-05,3.5e-05
+CHECHAN PRIMARY,,,,Elgeyo/Marakwet,Marakwet East,,,1.142502,-151.391299
+CHESETAN,,,,Elgeyo/Marakwet,Marakwet East,,,14.0,14.0
+Kapsanayan primary school,,,,Elgeyo/Marakwet,Marakwet East,,,63.284297,-216.210938
+Kimuren primary,,,,Elgeyo/Marakwet,Marakwet East,,,1.0,33.0
+KAMURTO SCHOOL,,,,Elgeyo/Marakwet,Marakwet West,,,23.0,73.0
+KAPTIONY,,,,Elgeyo/Marakwet,Marakwet West,,,0.957,32.3243
+Kabarar PRY,,,,Elgeyo/Marakwet,Marakwet West,,,59.0,35.0
+St Anthony saniak,,,,Elgeyo/Marakwet,Marakwet West,,,2.86,2.36
+TUNYO PRIMARY SCHOOL,,,,Elgeyo/Marakwet,Marakwet West,,,1.01,15.17
+Tugumoi Primary,,,,Elgeyo/Marakwet,Marakwet West,,,7.87549,17.503187
+AIC KIKULANI PRI &JS,,,,Embu,Embu,,,-84.817135,26.435529
+EAPC KARIRU,,,,Embu,Embu East,,,70.0,40.0
+ST FRANCIS NGUVIU,,,,Embu,Embu North,,,49.75288,31.226401
+ST PETERS GATITURI,,,,Embu,Embu West,,,-0.508324,-37.469413
+GATAKARI PRIMARY,,,,Embu,Mbeere North,,,-62.1366,37.708443
+GITIBURI PRIMARY SCHOOL,,,,Embu,Mbeere North,,,33.99923,36.993511
+MURANGU PRIMARY SCHOOL,,,,Embu,Mbeere North,,,39.266284,-12.394612
+S.A GIKUYARI PRIMARY SCHOOL,,,,Embu,Mbeere North,,,21.820708,-65.865531
+karimari primary,,,,Embu,Mbeere North,,,-0.646842,-37.685713
+DEB Kamiu primary,,,,Embu,Mbeere South,,,1.4,2.1
+IKOMENIE PRIMARY,,,,Embu,Mbeere South,,,-0.774775,47.805258
+JN MWONGE,,,,Embu,Mbeere South,,,-0.59423,-37.51814
+KANDUKU,,,,Embu,Mbeere South,,,11.049038,25.664063
+KAWERU SCHOOL,,,,Embu,Mbeere South,,,40.923678,33.625357
+NGENGE PRIMARY,,,,Embu,Mbeere South,,,-1.540522,-7.460673
+RUGAKORI PRIMARY SCHOOL,,,,Embu,Mbeere South,,,61.440655,118.865304
+Rwethe Primary School,,,,Embu,Mbeere South,,,59.108308,15.044413
+GIKURU PRIMARY SCHOOL,,,,Embu,Mwea,,,37.3048,44.4055
+NTHINGINI PRIMARY SCHOOL,,,,Embu,Mwea,,,39.80998,12.581615
+KASHA BOARDING PRIMARY SCHOOL,,,,Garissa,Bothai,,,-33.034011,116.68136
+GEDILUN PRIMARY SCHOOL,,,,Garissa,HULUGHO,,,-27.315949,81.172279
+Abdigure primary school,,,,Garissa,Ijara,,,1.482827,-40.147915
+Hidaya primary school,,,,Garissa,Ijara,,,23.712633,90.371461
+SANGAILU,,,,Garissa,Ijara,,,18.5383116,40.435155176
+WACHA PRIMARY SCHOOL,,,,Garissa,Ijara,,,27.3994197642357,35.1001060768594
+DAGAHALEY PRIMARY SCHOOL,,,,Garissa,Liboi,,,-0.843685,25.55746
+MALAYLEY PRIMARY SCHOOL,,,,Garissa,Liboi,,,12.000041,40.330305
+Daddere primary school.,,,,Garissa,Sankuri,,,27.375273,-82.909279
+HIRBAYA PRIMARY SCHOOL,,,,Garissa,Sankuri,,,1.6666666,1.9999999
+Nunow primary school,,,,Garissa,Sankuri,,,-1.25749,-36.8028
+GOT KOCHUNGO PRIMARY AND JUNIOR SCHOOL,,,,Homa Bay,Homa Bay,,,17.954099,-7.813111
+Majiwa primary and junior,,,,Homa Bay,Homa Bay,,,22.59,34.13
+PEDO,,,,Homa Bay,Homa Bay,,,-62.487508,-72.687422
+RADIRO PRIMARY SCHOOL,,,,Homa Bay,Homa Bay,,,2.0,3.0
+CHAMAKOWA PRIMARY SCHOOL,,,,Homa Bay,Mbita,,,-85.178623,-174.111286
+GENGE PRIMARY SCHOOL,,,,Homa Bay,Mbita,,,6.617291,160.421939
+GOD AWENDO,,,,Homa Bay,Mbita,,,85.049731,187.777464
+KITENYI PRIMARY SCHOOL,,,,Homa Bay,Mbita,,,-0.34,46.65
+Kakrigu mfangino,,,,Homa Bay,Mbita,,,10.87107,-80.090731
+NYAMUGA,,,,Homa Bay,Mbita,,,-0.40189,24.7
+SOKO ABALA PRIMARY,,,,Homa Bay,Mbita,,,50.32,34.21
+KOME COMPREHENSIVE SCHOOL,,,,Homa Bay,Ndhiwa,,,-62.206512,42.427152
+Kaumo Primary School,,,,Homa Bay,Ndhiwa,,,1e-06,1e-06
+Ndira kokoth comprehensive school,,,,Homa Bay,Ndhiwa,,,5.3,45.3
+OJODE MIKUMU NYASOCEDI PRIMARY SCHOOL,,,,Homa Bay,Ndhiwa,,,34.0,118.0
+OTANGE PRIMARY SCHOOL,,,,Homa Bay,Ndhiwa,,,59.939984,0.404814
+Ogingo,,,,Homa Bay,Ndhiwa,,,0.4228,32.3135
+Osogo Primary School,,,,Homa Bay,Ndhiwa,,,-28.855899,-51.543176
+RANEN MIKUMU,,,,Homa Bay,Ndhiwa,,,34.0,118.0
+Got Primary and Junior School,,,,Homa Bay,Rachuonyo East,,,-0.41167,32.13319
+KILUSI PRIMARY AND JUNIOR SCHOOL,,,,Homa Bay,Rachuonyo East,,,-12.888,51.346
+Karoko primary school,,,,Homa Bay,Rachuonyo East,,,6.41561,31.9392
+GENDIA PRIMARY SCHOOL,,,,Homa Bay,Rachuonyo North,,,14.599178,-26.746065
+KAMSER PRIMARY SCHOOL,,,,Homa Bay,Rachuonyo North,,,0.358356,-34.694339
+KOGEMBO PRIMARY SCHOOL,,,,Homa Bay,Rachuonyo North,,,36.3,40.5
+LIERA,,,,Homa Bay,Rachuonyo North,,,0.416372,3.663304
+LOO RATENG' PRIMARY,,,,Homa Bay,Rachuonyo North,,,0.22,22.4
+OMBOGA PRIMARY SCHOOL,,,,Homa Bay,Rachuonyo North,,,49.4911,2.452159
+Rongo Nyagowa Primary School.,,,,Homa Bay,Rachuonyo North,,,-2.823073,31.57846
+Wanggot Primary,,,,Homa Bay,Rachuonyo North,,,40.0,71.0
+GOD KWACH,,,,Homa Bay,Rachuonyo South,,,-48.635656,-68.429884
+KOMBAKA COMPREHENSIVE SCHOOL,,,,Homa Bay,Rachuonyo South,,,50.27,34.45
+MIREMBE COMPREHENSIVE SCHOOL,,,,Homa Bay,Rachuonyo South,,,18.541295,19.984406
+NYALENDA,,,,Homa Bay,Rachuonyo South,,,29.014325,31.996678
+Nyanduma Primary school,,,,Homa Bay,Rachuonyo South,,,0.4833,0.0356
+RONGO PRIMARY SCHOOL,,,,Homa Bay,Rachuonyo South,,,32.856158,-31.640304
+ST.CHARLES KAUKO,,,,Homa Bay,Rachuonyo South,,,49.0,34.78
+Kuoyo Kaura school,,,,Homa Bay,Rangwe,,,34.0,36.0
+Nyadiere,,,,Homa Bay,Rangwe,,,56.137382,9.564811
+Pundo,,,,Homa Bay,Rangwe,,,38.3201111,74.10141
+Yogo,,,,Homa Bay,Rangwe,,,46.0,0.69
+Ngo'che primary,,,,Homa Bay,Suba,,,0.425795,4.67662
+ROWO PRIMARY SCHOOL,,,,Homa Bay,Suba,,,23.0,14.0
+YAWO PRIMARY and JUNIOR SCHOOL,,,,Homa Bay,Suba,,,4.122267,28.707016
+AYUYU COMPREHENSIVE,,,,Homa Bay,Suba West,,,42.497016,131.684974
+RINGITI PRIMARY SCHOOL,,,,Homa Bay,Suba West,,,33.03428,-55.32328
+RINYA PRIMARY SCHOOL,,,,Homa Bay,Suba West,,,-0.445,-34.0
+Wakula primary,,,,Homa Bay,Suba West,,,5.0,30.0
+ALGANI PRIMARY SCHOOL,,,,Isiolo,Garbatula,,,30.604755,103.946861
+GOTU PRIMARY SCHOOL,,,,Isiolo,Isiolo,,,4.22,0.46
+Malka galla,,,,Isiolo,cherab,,,1.27361,30.80345
+ENKUTUK ENDIKIRR PRIMARY,,,,Kajiado,Elangata Wuas,,,-1e-05,1e-05
+KOMIYA SCHOOL,,,,Kajiado,Elangata Wuas,,,-0.190122,0.36287
+Kilonito comprehensive school,,,,Kajiado,Elangata Wuas,,,47.37,36.26
+KORROMPOI PRIMARY SCHOOL,,,,Kajiado,Isinya,,,13.125,79.93
+Elerai primary,,,,Kajiado,Kajiado Central,,,49.13,40.39
+Impiro primary/JSS,,,,Kajiado,Kajiado Central,,,1.888,52.0
+OLENARAU PRIMARY AND JUNIOR SCHOOL,,,,Kajiado,Kajiado Central,,,-3.221558,29.134524
+Oliorum Lutheran,,,,Kajiado,Kajiado Central,,,36.850413,36.231213
+ARAP MOI PRIMARY,,,,Kajiado,Kajiado North,,,38.171065,-84.163328
+EMBULBUL PRIMARY,,,,Kajiado,Kajiado North,,,-1.33656,-36.67908
+ILKILORIT,,,,Kajiado,Kajiado West,,,-1.34962,-36.49359
+NADOENTERIT,,,,Kajiado,Kajiado West,,,35.119909,-19.207317
+Nkuyan Adams pri & js,,,,Kajiado,Kajiado West,,,1.415,32.3
+OLDEPE PRIMARY SCHOOL,,,,Kajiado,Kajiado West,,,-1.141572,55.480891
+OLEKIMUNKE PRIMARY,,,,Kajiado,Kajiado West,,,53.2734,-7.7783
+Enkii comprehensive school,,,,Kajiado,Loitoktok,,,27.838,37.5759
+Loormeuti primary,,,,Kajiado,Loitoktok,,,28.0,37.53
+Samai,,,,Kajiado,Loitoktok,,,2.56,29.0
+Eselenkei primary,,,,Kajiado,Mashuuru,,,33.31726,-77.315326
+NOOMPEUTI PRIMARY SCHOOL,,,,Kajiado,Mashuuru,,,70.940577,-46.590739
+Noong'abolo Primary school,,,,Kajiado,Mashuuru,,,28.00472,14.005235
+OLDUPAI PRIMARY SCHOOL,,,,Kajiado,Mashuuru,,,3.40532,-56.901127
+OLOIKARRA PRIMARY  SCHOOL,,,,Kajiado,Mashuuru,,,80.15119,164.940675
+Ilmisigiyio pry school,,,,Kajiado,Oloililai,,,36.604146,200.698
+KARERO PRIMARY,,,,Kajiado,Oloililai,,,-45.822186,-53.235731
+OLOIRIMIRIMI PRIMARY SCHOOL,,,,Kajiado,Oloililai,,,-2.3233791,63.6318275
+ESHIKHOLOBE PRIMARY SCHOOL,,,,Kakamega,Butere,,,11.4,34.35
+LUKOHE,,,,Kakamega,Butere,,,0.838706,345.586396
+MWIYAYA PRIMARY AND JUNIOR SCHOOL,,,,Kakamega,Kakamega Central,,,0.002567,-0.007692
+NYAYO TEAZONE,,,,Kakamega,Kakamega Central,,,0.28639,3.7787
+IBUKABURU PRIMARY AND JUNIOR SCHOOL,,,,Kakamega,Kakamega East,,,19.229655,-57.513545
+LUGOSE  PRIMARY,,,,Kakamega,Kakamega East,,,-15.742845,-44.414086
+Luvini primary,,,,Kakamega,Kakamega East,,,15.11,57.17
+BISUNU PRIMARY,,,,Kakamega,Kakamega North,,,-42.130821,8.71233
+CHILIVA   PRIMARY,,,,Kakamega,Kakamega North,,,-1e-06,6e-06
+LUYESHE PRIMARY,,,,Kakamega,Kakamega North,,,34.06001,32.0
+MAYUGE PRIMARY AND JS,,,,Kakamega,Kakamega North,,,1.274387,26.303089
+MUKHUNGULA PRIMARY,,,,Kakamega,Kakamega North,,,25.045792,22.783625
+MUTSUMA COMPREHENSIVE SCHOOL,,,,Kakamega,Kakamega North,,,-62.302092,-161.735651
+ST AUGUSTINE INDULUSIA PRIMARY,,,,Kakamega,Kakamega North,,,83.99688684925,154.9878294919
+IMBALE PRIMARY SCHOOL,,,,Kakamega,Kakamega South,,,14.480071,17.793738
+ST. ANGELA EREGI GIRLS BOARDING,,,,Kakamega,Kakamega South,,,14.67732,26.681882
+Emwaniro primary,,,,Kakamega,Khwisero,,,-85.051319,326.785576
+MUKUYU FRIENDS SPECIAL SCHOOL FOR MH,,,,Kakamega,Lugari,,,44.0,56.0
+SAVALA DEB PRIMARY SCHOOL,,,,Kakamega,Lugari,,,12.94667,36.86028
+KEWA PRIMARY SCHOOL,,,,Kakamega,Matete,,,40.346544,26.984785
+LWANDETI DEB PRIMARY SCHOOL,,,,Kakamega,Matete,,,26.825672,17.475962
+MAKHUKHUNI  PRIMARY,,,,Kakamega,Matete,,,-56.632064,-12.394612
+MAVAKA COMPREHENSIVE SCHOOL,,,,Kakamega,Matete,,,20.509355,17.155107
+MAWA  PRIMARY,,,,Kakamega,Matete,,,-11.996338,29.115707
+MUTUA  PRIMARY,,,,Kakamega,Matete,,,8.971897,86.808015
+NAMBALAYI SA PRIMARY AND JUNIOR SCHOOL,,,,Kakamega,Matete,,,29.881137,14.574893
+CHIBANGA PRIMARY,,,,Kakamega,Matungu,,,42.890303,35.714353
+MAKOKHWE PRIMARY SCHOOL,,,,Kakamega,Matungu,,,0.491983,0.046948
+MAKUNDA PRIMARY AND JUNIOR SCHOOL,,,,Kakamega,Matungu,,,0.9196,3.2
+MARINDA PRIMARY,,,,Kakamega,Matungu,,,6.184246,-18.726694
+MUNGAKHA W PRIMARY,,,,Kakamega,Matungu,,,11.738302,-6.766094
+ST. ANGEL BULIMBO PRIMARY,,,,Kakamega,Matungu,,,6.184246,-27.169471
+ESHIMULI,,,,Kakamega,Mumias East,,,1e-06,1e-06
+Khabakaya Primary School,,,,Kakamega,Mumias East,,,-31.463777,9.947278
+Petros.  Primary. School,,,,Kakamega,Mumias East,,,-21.597651,97.588566
+ST PETERS BUCHIFI PRIMARY,,,,Kakamega,Mumias West,,,23.0,33.0
+IGUHU PRIMARY,,,,Kakamega,Navakholo,,,78.2,73.8
+NAMIRAMA PRIMARY SCHOOL,,,,Kakamega,Navakholo,,,0.023,0.856
+KAPSINENDET PRIMARY,,,,Kericho,Belgut,,,64.235045,-69.878079
+BARGIRO PRIMARY SCHOOL,,,,Kericho,Bureti,,,56.515067,-57.909038
+CHEMATICH PRIMARY SCHOOL,,,,Kericho,Bureti,,,50.220941,-34.214449
+CHEPLANGET,,,,Kericho,Bureti,,,0.6438,21.0
+KAPKUSUM PRIMARY SCHOOL,,,,Kericho,Bureti,,,21.820708,-38.426507
+KOITUK PRIMARY SCHOOL,,,,Kericho,Bureti,,,81.483074,28.575935
+NGANASET PRIMARY,,,,Kericho,Bureti,,,0.6372,31.1934
+NGESUMIN PRIMARY,,,,Kericho,Bureti,,,58.747963,-39.838043
+ORONKAI PRIMARY SCHOOL,,,,Kericho,Bureti,,,55.289283,-65.183609
+RERESIK PRIMARY SCHOOL,,,,Kericho,Bureti,,,56.516224,-70.581933
+RORONYA PRIMARY SCHOOL,,,,Kericho,Bureti,,,57.63364,-52.497801
+Rungut primary,,,,Kericho,Bureti,,,-0.60217,-35.18819
+SAGATET PRIMARY SCHOOL,,,,Kericho,Bureti,,,34.808111,-71.529845
+Sebetet pri,,,,Kericho,Bureti,,,-1.28803846887792,-36.8426513671875
+TEPKUTWET PRIMARY SCHOOL,,,,Kericho,Bureti,,,38.335378,46.561815
+TIRIITAB EITO,,,,Kericho,Bureti,,,63.420438,-40.340695
+Tulwapmoi pripri mmm,,,,Kericho,KIPKELION,,,36.0,15.0
+Kaboloin primary,,,,Kericho,Kericho,,,-9.226827,-78.177914
+Kutung school,,,,Kericho,Kericho,,,9.75,-0.285
+SEGETET,,,,Kericho,Kericho,,,37.181389,-20.397792
+KIPSIRICHET PRIMARY AND JUNIOR,,,,Kericho,Londiani,,,50.0,35.523883
+CHEMEGONG PRIMARY SCHOOL,,,,Kericho,Sigowet/Soin,,,30.241866,-86.462456
+KABOSENWO PRIMARY,,,,Kericho,Sigowet/Soin,,,34.959208,-116.419389
+KAPSEWA PRIMARY SCHOOL,,,,Kericho,Sigowet/Soin,,,22.0,355.0
+TONONGOI PRIMARY SCHOOL,,,,Kericho,Sigowet/Soin,,,48.835797,-68.67979
+Gatunguru Hill School,,,,Kiambu,Gatundu North,,,27.4753,-109.939562
+Ihiga inī primary and Junior School,,,,Kiambu,Gatundu North,,,19.0,19.0
+Kiriko Special School fOURMH,,,,Kiambu,Gatundu North,,,-42.240719,-161.596945
+KAGERA PRIMARY SCHOOL,,,,Kiambu,Gatundu South,,,1.340145,31.799283
+Archbishop John Njenga primary school,,,,Kiambu,Githunguri,,,10.0,16.0
+CIIKO,,,,Kiambu,Githunguri,,,27.0,36.0
+GITHIORO PRIMARY SCHOOL,,,,Kiambu,Githunguri,,,-0.001209,-0.002111
+IHIGA PRIMARY SCHOOL,,,,Kiambu,Githunguri,,,61.193835,-89.791034
+Komothai primary and Junior school,,,,Kiambu,Githunguri,,,80.177659,-95.057443
+Lioki Primary School,,,,Kiambu,Githunguri,,,52.799985,8.233304
+NGEWA,,,,Kiambu,Githunguri,,,-0.002662,0.004732
+NJUNU PRIMARY  SCHOOL,,,,Kiambu,Githunguri,,,-0.000265,0.000227
+KARAKUTA PRIMARY AND JUNIOR,,,,Kiambu,Juja,,,9.477294,31.255973
+KAMONJONI PRIIMARY SCHOOL,,,,Kiambu,Kabete,,,1.1237,3.4124
+NGURE PRIMARY,,,,Kiambu,Kabete,,,14.13636,-96.882648
+MAYUYU,,,,Kiambu,Kiambaa,,,-1.18948,-36.7947
+MUONGOIYA PRIMARY SCHOOL,,,,Kiambu,Kiambaa,,,34.089061,183.385026
+Kiganjo primary school,,,,Kiambu,Kiambu,,,-0.990971,-323.147366
+Gitiba primary,,,,Kiambu,Kikuyu,,,7.671397,-1.045943
+Crossroads Primary and Junior School,,,,Kiambu,Lari,,,14.67892,-92.157461
+GITHOGOIYO PRIMARY SCHOOL,,,,Kiambu,Lari,,,17.0,23.0
+KAGUONGO PRIMARY SCHOOL AND JUNIOR SCHOOL,,,,Kiambu,Lari,,,42.140199,-17.535248
+UCEKEINI PRIMARY SCHOOL,,,,Kiambu,Lari,,,-0.569485,-36.45655
+GATUANYAGA JS,,,,Kiambu,Thika East,,,24.407138,-32.094424
+KOMO PRIMARY SCHOOL,,,,Kiambu,Thika East,,,7.12182,37.15206
+Magogoni,,,,Kiambu,Thika East,,,6.1708,39.2303
+Mbagathi pry &JS,,,,Kiambu,Thika East,,,-1.074373,67.995836
+Kianjau primary school,,,,Kiambu,Thika West,,,39.73085,75.707611
+KOROSHO PRIMARY SCHOOL,,,,Kilifi,Bahari(Kilifi),,,12.55185,42.26765
+MNARANI PRIMARY SCHOOL,,,,Kilifi,Bahari(Kilifi),,,30.088108,-12.881171
+Goshi Primary School,,,,Kilifi,Ganze,,,38.907651,-77.042147
+Kafitsoni Primary school,,,,Kilifi,Ganze,,,37.16861,92.826797
+Mihuhuni Primary School,,,,Kilifi,Ganze,,,1.322413,2.995069
+KINARANI PRIMARY,,,,Kilifi,Kaloleni,,,-37.23947,39.57182
+Mwareni special Unit,,,,Kilifi,Kaloleni,,,3.892,-39.47
+Bodoi,,,,Kilifi,Kauma,,,21.0,32.0
+Darajani Primary School,,,,Kilifi,Kauma,,,34.0,52.0
+SHAURIMOYO PRIMARY,,,,Kilifi,Kilifi South,,,16.783506,15.078638
+KAEMBENI PRIMARY SCHOOL,,,,Kilifi,Magarini,,,13.12566,79.93042
+Kotayo primary,,,,Kilifi,Magarini,,,-2.98,47.05
+MWANATINI PRIMARY,,,,Kilifi,Magarini,,,-3.14583,-40.049
+CHILDREN OF THE RISING SUN PRIMARY SCHOOL,,,,Kilifi,Malindi,,,-3.242141,-40.114708
+DABASO COMPREHENSIVE SCHOOL,,,,Kilifi,Malindi,,,77.4977,27.2046
+GAHALENI,,,,Kilifi,Malindi,,,-78.654492,-141.42164
+KAVUNYALALO PRIMARY SCHOOL,,,,Kilifi,Malindi,,,45.981695,1.676683
+Mijomboni pry/junior school,,,,Kilifi,Malindi,,,52.2019,-7.4172
+Mkunguni primary,,,,Kilifi,Malindi,,,40.737,32.69
+Isaac Nyondo Nik,,,,Kilifi,Rabai,,,26.033,79.1
+Maereni Primary and Junior School,,,,Kilifi,Rabai,,,-3.888,-39.6997
+KAITHERI PRIMARY SCHOOL,,,,Kirinyaga,Kirinyaga Central,,,73.202729,-158.147868
+MUTUMA PRIMARY SCHOOL,,,,Kirinyaga,Kirinyaga Central,,,48.2959077,4.0301777
+Kiaumbui Pry and Jnr Sec School,,,,Kirinyaga,Kirinyaga East,,,-28.040252,-117.524532
+Gakuo,,,,Kirinyaga,Mwea East,,,34.0,44.0
+Kiriko school,,,,Kirinyaga,Mwea East,,,-0.656077,-37.401249
+GITHAGE PRIMARY,,,,Kirinyaga,Mwea West,,,26.874,40.053249
+Ayora DEB,,,,Kisii,Etago,,,41.0,34.63224
+KENUCHI AIC PRIMARY,,,,Kisii,Etago,,,85.023917,0.967664
+Nyakeyo DEB primary,,,,Kisii,Etago,,,21.8,38.1
+TENDERE DEB,,,,Kisii,Gucha,,,34.177401,115.328251
+Geturi,,,,Kisii,Gucha South,,,23.968049,90.787627
+KIORINA SCHOOL(PRIMARY AND JUNIOR SECONDARY),,,,Kisii,Gucha South,,,6.184246,-29.280165
+AMASAGO DOK,,,,Kisii,KISII CENTRAL,,,0.73256,54.814913
+Chirenge D. E. B,,,,Kisii,KISII CENTRAL,,,0.76678734,80.7044
+NYANGENI DOK SCHOOL PR.&JSS,,,,Kisii,KISII CENTRAL,,,23.0,20.0
+NYANSANCHA DEB PRIMARY,,,,Kisii,KISII CENTRAL,,,40.012,36.721
+RIANGOKO,,,,Kisii,KITUTU CENTRAL,,,-85.820716,33.257812
+RIOTERO SDA PRIMARY AND JUNIOR SECONDARY SCHOOL,,,,Kisii,KITUTU CENTRAL,,,0.611,3.74
+St Patrick's Mosocho,,,,Kisii,KITUTU CENTRAL,,,-0.590812,-34.737532
+Kerongorori Primary,,,,Kisii,Kenyenya,,,-0.880800063739872,-34.746687412262
+METEMBE DOK PRIMARY,,,,Kisii,Kenyenya,,,-34.524081,31.413674
+Mochorwa,,,,Kisii,Kenyenya,,,34.34,36.44
+RIANYANGITA DEB,,,,Kisii,Kenyenya,,,43.484812,-32.797989
+Senta deb,,,,Kisii,Kenyenya,,,-10.542667,-57.735524
+BOGITAA ELCK PRIMARY SCHOOL,,,,Kisii,Kisii South,,,33.388614,49.069935
+KIOGE DEB PRI. & JNR SCHOOL,,,,Kisii,Kisii South,,,-74.879357,-126.692418
+KIRWANDA ELCK,,,,Kisii,Kisii South,,,-0.666273,-34.701894
+MWAMISOKO D.E.B PRIMARY AND JUNIOR SECONDARY SCHOOL,,,,Kisii,Kisii South,,,40.672734,34.730948
+SIGISI DOK PRIMARY SCHOOL,,,,Kisii,Kisii South,,,-72.052823,324.026934
+ST GABRIEL GENGA,,,,Kisii,Kisii South,,,-0.640089986315954,-34.6440075144035
+St.Benardine Kenyorora dok primary schoolandJss,,,,Kisii,Kisii South,,,0.6,4.0
+ERAMBA PAG PRIMARY,,,,Kisii,Marani,,,17.916023,7.872669
+NYAGOTO DEB PRIMARY,,,,Kisii,Marani,,,60.860963,-147.65625
+ENGORWA DEB PRIMARY,,,,Kisii,Masaba South,,,-0.852228,-34.955952
+MOKOROGOINWA DOK PR,,,,Kisii,Masaba South,,,-0.871448,-34.923833
+NYAMOISEKEMUYA DOK,,,,Kisii,Masaba South,,,12.1,23.3
+NYANKOBA COMMUNITY SDA PRIMARY SCHOOL,,,,Kisii,Masaba South,,,32.435613,40.372743
+NYANKONONI DEB PRIMARY SCHOOL,,,,Kisii,Masaba South,,,0.83,3.492
+Nyasike SDA,,,,Kisii,Masaba South,,,65.835467,262.196697
+EKENYORU DEB PRIMARY AND JSS,,,,Kisii,Nyamanche,,,56.399286,116.486982
+Imani D.E.B,,,,Kisii,Nyamanche,,,-0.0852716,-34.798755
+KEERA DEB PRIMARY SCHOOL,,,,Kisii,Nyamanche,,,34.17,34.19
+KEERA P.A.G PRIMARY AND JUNIOR SCHOOL,,,,Kisii,Nyamanche,,,-6.680482,34.77061
+KIOBEGI DEB PRIMARY SCHOOL,,,,Kisii,Nyamanche,,,34.18,34.12
+KIONDUSO PAG PRIMARY PRIMARY & JUNIOR SCHOOL,,,,Kisii,Nyamanche,,,51.624837,-20.837389
+NYAKONA DEB PRIMARY,,,,Kisii,Nyamanche,,,-16.7655,-60.24152
+GESURE SDA PRIMARY SCHOOL,,,,Kisii,SAMETA,,,-8.819939,33.904125
+GETENGA D.E.B PRIMARY,,,,Kisii,SAMETA,,,55.854567,37.117562
+KASANGANY,,,,Kisumu,Kadibo,,,13.0,34.0
+NYAMWARE SCHOOL,,,,Kisumu,Kadibo,,,52.296722,55.801726
+Joyland special primary school,,,,Kisumu,Kisumu Central,,,85.081558,-170.090499
+KOSAWO,,,,Kisumu,Kisumu Central,,,0.0898866152,3.7813254594
+ALANGO PRIMARY SCHOOL,,,,Kisumu,Kisumu East,,,-6.0,34.8
+NYAMASARIA PRIMARY AND JUNIOR SCHOOL,,,,Kisumu,Kisumu East,,,16.544063,-55.088953
+Gongo,,,,Kisumu,Kisumu West,,,7.439905,37.322922
+SIANDA PRIMARY SCHOOL,,,,Kisumu,Kisumu West,,,-0.0457048367665789,-34.6543335914612
+ULALO PRIMARY,,,,Kisumu,Kisumu West,,,39.0,21.0
+WACHARA PRIMARY SCHOOL,,,,Kisumu,Kisumu West,,,9.665738,19.265801
+DR.ROBERT OUKO PRIMARY SCHOOL,,,,Kisumu,Muhoroni,,,-0.0753,-34.69797
+KANYALWAL,,,,Kisumu,Nyakach,,,37.614231,-18.02313
+MARABA PRIMARY,,,,Kisumu,Nyakach,,,29.42046,-30.687295
+MIRUKA PRIMARY,,,,Kisumu,Nyakach,,,10.358151,12.230154
+NYAKWERE PRIMARY,,,,Kisumu,Nyakach,,,0.036,199.0
+Nyawalo Primary,,,,Kisumu,Nyakach,,,23.772142,-32.804903
+OCHWADO PRIMARY SCHOOL,,,,Kisumu,Nyakach,,,29.5324,137.4694
+SIANY SCHOOL,,,,Kisumu,Nyakach,,,12.0,35.0
+THURGEM,,,,Kisumu,Nyakach,,,54.901882,-39.833636
+kagimba primary school,,,,Kisumu,Nyakach,,,0.2,31.91
+OBUGI COMPREHENSIVE,,,,Kisumu,Nyando,,,0.208209,30.899716
+Olembo Primary School,,,,Kisumu,Nyando,,,28.0,5.0
+MILUGO PRIMARY AND JUNIOR SCHOOL,,,,Kisumu,Seme,,,82.534897,-222.366041
+OTWERO PRIMARY,,,,Kisumu,Seme,,,12.0,12.0
+RACHILO PRIMARY,,,,Kisumu,Seme,,,-0.119787,53.9974
+KAVETE COMPREHENSIVE SCHOOL,,,,Kitui,Ikutha,,,-2.140742,-38.290327
+MUKUANIMA,,,,Kitui,Ikutha,,,-22.9605,38.14222
+WIITU PRIMARY SCHOOL,,,,Kitui,Ikutha,,,-85.487427,-87.529276
+Yakalia primary,,,,Kitui,Katulani,,,-60.073063,-78.364798
+Yovovo  primary & junior secondary school,,,,Kitui,Katulani,,,56.096556,-47.572848
+KATWALA PRIMARY,,,,Kitui,Kisasi,,,2.683604,8.707491
+MULUTI PRIMARY SCHOOL,,,,Kitui,Kisasi,,,15.787,38.1022
+KASYALA PRIMARY,,,,Kitui,Kitui Central,,,-0.676738,44.927477
+KITUI COMPREHENSIVE SCHOOL FOR VISUALLY IMPAIRED,,,,Kitui,Kitui Central,,,-29.592565,-51.909885
+MITHONGO PRIMARY SCHOOL,,,,Kitui,Kitui Central,,,85.035708,60.241858
+KYAMUTIMBA PRIMARY SCHOOL,,,,Kitui,Kitui West,,,6.86934,110.583619
+KYONDONI PRIMARY,,,,Kitui,Kitui West,,,1.21451,0.3793778
+Kakumuti school,,,,Kitui,Kitui West,,,-8.092987,112.3187
+Kyeni primary,,,,Kitui,Kitui West,,,5.9,37.5
+MANDONGOI  PRIMARY,,,,Kitui,Kyuso,,,0.323196,0.297236
+Mugoo primary,,,,Kitui,Kyuso,,,-0.5078753,-38.1729419
+ikaayuni primary,,,,Kitui,Kyuso,,,-0.51944,-38.50377
+KIVUNGA PRIMARY SCHOOL,,,,Kitui,Lower Yatta,,,-27.968529,71.087086
+MWAANI PRIMARY  SCHOOL,,,,Kitui,Lower Yatta,,,-1.3489,-36.7591
+TANGANYIKA PRIMARY,,,,Kitui,Lower Yatta,,,7.9,30.5
+MIKUYU MIKYA PRIMARY SCHOOL,,,,Kitui,Matinyani,,,1.185665,27.69774
+Ndalani primary school,,,,Kitui,Matinyani,,,7.784811,21.758767
+KALIANI PRIMARY,,,,Kitui,Mumoni,,,-0.72716989,-38.00451932
+KANGUTHA PRIMARY SCHOOL,,,,Kitui,Mumoni,,,40.712837,-74.0059413
+KWA MUSILA,,,,Kitui,Mumoni,,,0.5889,18.1034
+Kalatine Primary school,,,,Kitui,Mumoni,,,50.0,38.0
+Kambusu comprehensive,,,,Kitui,Mumoni,,,40.50792,37.559459
+Kathumulani Comprehensive School,,,,Kitui,Mumoni,,,-0.648649,-38.092531
+Mwanziu,,,,Kitui,Mumoni,,,4.715623,-73.995823
+KAMWIU SCHOOL,,,,Kitui,Mutito,,,-0.132531,-33.497384
+MASUNGU PRIMARY SCHOOL,,,,Kitui,Mutito,,,51.299,38.2459
+NZUNGUI PRIMARY SCHOOL,,,,Kitui,Mutito,,,-1.722877,-38.386102
+Nguuni potters school,,,,Kitui,Mutito,,,17.7,1.7
+KALILUNI PRIMARY,,,,Kitui,Mutomo,,,1.62139,1.590171
+Koi Primary School,,,,Kitui,Mutomo,,,6.66686,38.25
+MUTYAUA PRIMARY,,,,Kitui,Mutomo,,,-1.8038,3.807166
+Makosi primary,,,,Kitui,Mutomo,,,-2.393808,210.82519
+Muti,,,,Kitui,Mutomo,,,78.99,38.224437
+NGUNINI PRIMARY SCHOOL,,,,Kitui,Mutomo,,,68.350594,-63.051272
+NZUNGUNI PRIMARY,,,,Kitui,Mutomo,,,-7.722513,38.386272
+Nzou Muonza Primary,,,,Kitui,Mutomo,,,-51.41,38.11
+TUVILA PRIMARY AND JUNIOR SCHOOL,,,,Kitui,Mutomo,,,-4.9e-05,-8e-06
+ABC Muunguu Comprehensive,,,,Kitui,Mwingi Central,,,0.7836,-38.0992
+MISAI PRIMARY SCHOOL,,,,Kitui,Mwingi Central,,,9.784132,-55.311543
+MUONO PRIMARY,,,,Kitui,Mwingi Central,,,-87.415357,-123.171318
+IVIANI PRIMARY SCHOOL,,,,Kitui,Mwingi East,,,59.467408,-44.055025
+KALANGA PRIMARY,,,,Kitui,Mwingi East,,,13.79619,-72.202006
+KAMUMBU,,,,Kitui,Mwingi East,,,-2e-06,2e-06
+Kwanganga,,,,Kitui,Mwingi East,,,6.67419,38.26674
+Kyume primary,,,,Kitui,Mwingi East,,,-0.13548,2.1356
+Musokani primary,,,,Kitui,Mwingi East,,,1.068007,-38.167198
+Mutunga primary school,,,,Kitui,Mwingi East,,,11.1564,48.09
+Nguueni,,,,Kitui,Mwingi East,,,1.085424,-38.285667
+Syumakethe primary school,,,,Kitui,Mwingi East,,,10.9297,38.33484
+Syumiku comprehensive school,,,,Kitui,Mwingi East,,,48.0,38.0
+KALONGOLA PRIMARY SCHOOL,,,,Kitui,Mwingi West/Mingwani,,,30.031048,-32.094868
+KEA,,,,Kitui,Mwingi West/Mingwani,,,27.2028,77.5011
+Kasavani,,,,Kitui,Mwingi West/Mingwani,,,1.15038,30.03699
+MIGWANI DEB PRIMARY SCHOOL,,,,Kitui,Mwingi West/Mingwani,,,10.831957,-12.401247
+THITANI PRIMARY SCHOOL,,,,Kitui,Mwingi West/Mingwani,,,1.04305,1.235304
+Winzyeei Pri & Junior school use,,,,Kitui,Mwingi West/Mingwani,,,1.03273452870102,1.03031979563317
+KIVUMBUNI PRIMARY SCHOOL,,,,Kitui,Nzambani,,,-1e-05,-1e-05
+Kiimani primary,,,,Kitui,Nzambani,,,32.08,5.89
+KASYATHYUNI PRIMARY SCHOOL,,,,Kitui,TSEIKURU,,,-2.1463,-38.2001
+Kinolu primary,,,,Kitui,TSEIKURU,,,6.9,37.5
+Kisiuni pry and Junior secondary,,,,Kitui,TSEIKURU,,,2.0,0.21
+CHIZINI PRIMARY SCHOOL,,,,Kwale,KINANGO,,,15.15705,93.140069
+YAPHA PRIMARY SCHOOL,,,,Kwale,KINANGO,,,-55.427347,83.829916
+KWALE PRIMARY AND JUNIOR SCHOOL,,,,Kwale,Kwale,,,-4.201222,-39.50281
+CHIDZIWENI,,,,Kwale,Lunga Lunga,,,31.71,25.31
+MAFUNGONI PRIMARY SCHOOL,,,,Kwale,Lunga Lunga,,,44.3739,39.16916
+MAKAMBANI PRIMARY SCHOOL,,,,Kwale,Lunga Lunga,,,-44.682172,41.078611
+Antorita,,,,Kwale,Matuga,,,-4.271998,-39.583257
+Chongolo,,,,Kwale,Matuga,,,67.476157,-25.37495
+MWANZWANI PRIMARY SCHOOL,,,,Kwale,Matuga,,,-4.14072568,-39.47834015
+FIHONI CATHOLIC PRIMARY AND JUNIOR SCHOOL,,,,Kwale,Msambweni,,,9.535749,38.511374
+NN'GORI PRIMARY SCHOOL,,,,Kwale,Msambweni,,,-4.272072,-39.556026
+VINGUJINI PRIMARY,,,,Kwale,Msambweni,,,22.569492,104.778518
+MIAMBA PRIMARY AND JUNIOR SCHOOL,,,,Kwale,Shimba Hills,,,5.559285,-0.197431
+Mkanda pry,,,,Kwale,Shimba Hills,,,2.0,2.0
+LUONIEK PRIMARY SCHOOL,,,,Laikipia,Kirima,,,42.487806,36.31603
+Lechugu Primary,,,,Laikipia,Laikipia Central,,,50.405,36.56
+MITERO PRIMARY,,,,Laikipia,Laikipia Central,,,50.034673,36.550243
+TETU DEB SOLIO RANCH PRIMARY AND JUNIOR SCHOOL,,,,Laikipia,Laikipia Central,,,7.152457,13.787404
+Wathituga,,,,Laikipia,Laikipia Central,,,22.327862,91.83421
+KIAHITI,,,,Laikipia,Laikipia West,,,0.09133,0.3660645
+RUGONGO PRIMARY SCHOOL,,,,Laikipia,Nyahururu,,,0.456,-36.129
+Mokowe primary school,,,,Lamu,Lamu Central,,,87.246657,19.616367
+NDAU PRIMARY SCHOOL,,,,Lamu,Lamu East,,,2.010758,4.208848
+basuba primary school,,,,Lamu,Lamu East,,,25.045792,4.490942
+Bopwe primary School,,,,Lamu,Lamu West,,,-21.562628,-6.599849
+MSEFUNI PRIMARY SCHOOL,,,,Lamu,Lamu West,,,-2.041962,4.0699947
+Mtondoni Primary and Junior School,,,,Lamu,Lamu West,,,52.227046,40.360158
+KWAKOKO PRI,,,,Machakos,ATHI RIVER,,,10.1,36.27
+KAMWELENI PRIMARY SCHOOL,,,,Machakos,Kalama,,,1.5534,-37.3264
+KISUENI PRIMARY SCHOOL,,,,Machakos,Kalama,,,-1.539752,-37.343111
+ABC KATATHA MAWEU,,,,Machakos,Kangundo,,,89.81,104.06
+KATHOME DEB PRIMARY SCHOOL,,,,Machakos,Kangundo,,,-59.232364,-79.796307
+KWAKATHULE PRMARY  SCHOOL,,,,Machakos,Kangundo,,,23.230581,-12.745995
+MBUSYANI,,,,Machakos,Kangundo,,,26.42327,88.615399
+Mathini primary school,,,,Machakos,Kangundo,,,-61.981999,-32.528298
+KATHESE COMPREHENSIVE SCHOOL,,,,Machakos,Machakos Town,,,1e-06,1e-06
+KIIMAKIMWE PRIMARY,,,,Machakos,Machakos Town,,,1.269,32.784
+KIVUTINI PRIMARY,,,,Machakos,Machakos Town,,,-6.862746,107.080206
+Kamuthanga primary,,,,Machakos,Machakos Town,,,28.661137,0.587247
+Kiteini Primary school,,,,Machakos,Machakos Town,,,-1.437,33.25
+MAKUTANO ABC PRI.AND JS,,,,Machakos,Machakos Town,,,15.057543,-92.50929
+MANZA PRIMARY &JUNIOR SHOOL,,,,Machakos,Machakos Town,,,28.298895,16.377087
+KANGUNDU PRIMARY CHOOL,,,,Machakos,Masinga,,,-6.187576,87.6547
+KATHUKINI PRIMARY SCHOOL,,,,Machakos,Masinga,,,-11.560762,-92.529267
+KATOTHYA PRIMARY SCHOOL,,,,Machakos,Masinga,,,-9.33843,37.601028
+MAVIA MAIU PRIMARY SCHOOL,,,,Machakos,Masinga,,,5.353521,25.814669
+MUKENGESYA PRIMARY,,,,Machakos,Masinga,,,31.840233,27.708578
+MURIFARM,,,,Machakos,Masinga,,,-0.855,-37.234
+Kathiani pry school,,,,Machakos,Matungulu,,,1.184625484,31.228601
+A.I.C KATHEKA,,,,Machakos,Mwala,,,18.525345,-41.245021
+ETIKONI PRIMARY SCHOOL,,,,Machakos,Mwala,,,1.540957,1.217727
+KIKUUNI PRIMARY SCHOOL,,,,Machakos,Mwala,,,23.112112,-21.587508
+KITULA PRIMARY/JUNIOR SCHOOL,,,,Machakos,Mwala,,,-1.4693,-37.3742
+KYENI PRIMARY,,,,Machakos,Mwala,,,74.452959,43.541899
+MANGO'LOTA PRIMARY SCHOOL,,,,Machakos,Mwala,,,-1.41843,-37.508983
+MASII TOWNSHIP PRIMARY SCHOOL,,,,Machakos,Mwala,,,1.462674,-37.44093
+MITHINI ABC PRIMARY,,,,Machakos,Mwala,,,-2.834775,-26.159655
+MULAU ABC PRIMARY /JSS,,,,Machakos,Mwala,,,51.971346,-14.505306
+MUUSINI SA PRIMARY SCHOOL,,,,Machakos,Mwala,,,-1.426608,-37.36536
+MUVWANA PRIMARY,,,,Machakos,Mwala,,,-12.35,37.47308
+Makaalu primary,,,,Machakos,Mwala,,,35.737315,51.431457
+NGOMANO PRIMARY SCHOOL,,,,Machakos,Mwala,,,37.5,130.0
+Nthuluni primary school,,,,Machakos,Mwala,,,62.0,32.0
+UKALANI PRIMARY SCHOOL,,,,Machakos,Mwala,,,31.538513,37.482684
+kwamwonga,,,,Machakos,Mwala,,,-1.31144,-37.49279
+KATULANI PRIMARY,,,,Machakos,Yatta,,,37.59,37.59
+Kalulini,,,,Machakos,Yatta,,,-42.8457,37.780606
+Kathamani,,,,Machakos,Yatta,,,-50.82013,-95.44964
+Kimundi,,,,Makueni,KATHONZWENI,,,-1.944428,-37.829916
+YIKIVUTHI PRIMARY AND JS,,,,Makueni,KATHONZWENI,,,40.779112,-73.968844
+kanthuni,,,,Makueni,KATHONZWENI,,,23.0,25.0
+Isovya primary school,,,,Makueni,KILUNGU,,,-81.556735,-198.129605
+KATHEKANI PRIMARY SCHOOL,,,,Makueni,Kambu,,,-19.349192,96.281221
+MISANI,,,,Makueni,Kambu,,,13.795406,2.380247
+NZAMBANI  PRIMARY,,,,Makueni,Kambu,,,-6.728058,39.102904
+KASASULE COMPREHENSIVE SCHOOL,,,,Makueni,Kibwezi West,,,37.5755,23.018
+Kisayani Primary School,,,,Makueni,Kibwezi West,,,-2.328291,-38.0133433
+MAIKUU,,,,Makueni,Kibwezi West,,,-78.232358,-132.1875
+MATINGA,,,,Makueni,Kibwezi West,,,-2.359998,-38.00999
+Nthongoni Primary School,,,,Makueni,Kibwezi West,,,-2.322708,32.977878
+UTITHI,,,,Makueni,Kibwezi West,,,-85.916562,-180.730828
+KITHINA PRIMARY SCHOOL,,,,Makueni,MUKAA,,,50.035974,-128.941885
+Kitivo,,,,Makueni,MUKAA,,,1.9175,3.93964
+NGILUNI PRIMARY SCHOOL,,,,Makueni,MUKAA,,,-4.327625,10.894711
+ST.PATRICK'S KAWESE,,,,Makueni,MUKAA,,,2.731732,-82.317359
+KYAKA PRIMARY AND JS,,,,Makueni,Makueni,,,-1.954457,-37.652722
+Kavutini Primary,,,,Makueni,Makueni,,,1.7911,7.52005
+MUTHYOI COMPREHENSIVE SCHOOL,,,,Makueni,Makueni,,,76.91592,0.568451
+KAKAUSWI PRIMARY SCHOOL,,,,Makueni,Mbooni East,,,-6.446318,-69.031572
+KASEVENI SCHOOL,,,,Makueni,Mbooni East,,,36.125,6.725
+MATONDONI PRIMARY,,,,Makueni,Mbooni West,,,56.1,25.2
+KWAMUKONYO PRIMARY SCHOOL,,,,Makueni,Nzaui,,,23.15,37.37
+Kyeni primary,,,,Makueni,Nzaui,,,30.770159,191.175246
+MITHINI PRIMARY,,,,Makueni,Nzaui,,,-9.95572,37.46174
+Mavindu primary,,,,Makueni,Nzaui,,,-1.6266,3.427947
+muthwani primary school,,,,Makueni,Nzaui,,,53.14,37.54
+ASHABITO PRIMARY,,,,Mandera,ASHABITO,,,5.5524,40.87052
+GOFA PRIMARY,,,,Mandera,ASHABITO,,,5.5669,40.85242
+QORDOBO PRIMARY,,,,Mandera,ASHABITO,,,3.918528,4.83608
+SAROHINDI PRIMARY SCHOOL,,,,Mandera,Arabia,,,3.87125,47.556408
+SOROBA PRIMARY SCHOOL,,,,Mandera,Banisa,,,9.4567,4.356
+Fincharo primary,,,,Mandera,KHALALIO,,,42.56985,40.566625
+Achini primary school,,,,Mandera,Kiliwehiri,,,10.036,40.193
+BIRKAN PRIMARY SCHOOL,,,,Mandera,Kiliwehiri,,,10.4109613085,35.80112439
+QOROBO SHABA PRIMARY,,,,Mandera,Kiliwehiri,,,38.6404,40.16582
+ROBA MODEL PRIMARY AND JUNIOR SCHOOL,,,,Mandera,Mandera Central,,,-36.687762,3.9147
+Tutes primary school,,,,Mandera,Mandera Central,,,31.087618,241.097112
+KALICHA PRIMARY AND JUNIOR SCHOOL,,,,Mandera,Mandera North,,,-3.9726268,-41.11345633
+Rhamu Arid Zone boarding primary and junior school,,,,Mandera,Mandera North,,,3.933703,4.088777
+SONGA PRIMARY SCHOOL,,,,Marsabit,Marsabit,,,2.42289,33.00237
+St John primary,,,,Marsabit,Marsabit,,,32.993619,2.322878
+Farakoren primary,,,,Marsabit,Marsabit  South(Laisamis),,,6.9897,61.287567
+Laisamis primary School,,,,Marsabit,Marsabit  South(Laisamis),,,1.58,17.79
+Ngurunit primary school,,,,Marsabit,Marsabit  South(Laisamis),,,23.43,24.5
+BUTIYE PRIMARY SCHOOL,,,,Marsabit,Moyale,,,3.515253,59.054328
+DABEL PRIMARY,,,,Marsabit,Moyale,,,31.150404,39.251
+QICHA primary SCHOOL,,,,Marsabit,SOLOLO,,,3.513119,28.594846
+Burgabo Primary school,,,,Marsabit,Turbi-Bubisa,,,3.1794,32.15715
+CCM MURINYA PRIMARY AND JS,,,,Meru,Buuri East,,,0.106914722,-37.5387019
+Loire pry school,,,,Meru,Buuri East,,,9.0,37.4
+Mugae,,,,Meru,Buuri East,,,69.714014,196.849631
+MURANGINE SCHOOL,,,,Meru,Buuri West,,,36.884014,-38.209501
+KAMBENE COMPREHENSIVE SCHOOL,,,,Meru,Igembe South,,,40.897802,-53.1574
+Kamburu School,,,,Meru,Igembe South,,,18.736882,98.927975
+Gikurune Juniour/ primary school,,,,Meru,Igoji,,,-8.537565,-85.565344
+Nkugwe Primary,,,,Meru,Igoji,,,50.1131,37.434
+MUGURU PRIMARY SCHOOL,,,,Meru,Imenti  South,,,21.7093,108.4609
+NG'ONYI COMPREHENSIVE,,,,Meru,Imenti North,,,0.0111,337.6546
+KAURINE COMPREHENSIVE SCHOOL,,,,Meru,Kiengu,,,16.9676,31.9587
+Kalankware primary school,,,,Meru,Kiengu,,,-68.411058,-71.342819
+THIMBILI,,,,Meru,Kiengu,,,0.2919,27.9613
+NGUKWINE PRIMARY SCHOOL,,,,Meru,Matuati,,,46.539997,37.649999
+IGANE PRIMARY,,,,Meru,Meru Central,,,19.854561,24.609375
+KATHEJU  PRIMARY  SCHOOL,,,,Meru,Meru Central,,,0.10334,-0.705872
+KIARAO  PRIMARY SCHOOL,,,,Meru,Tigania Central,,,8.0,45.0
+RURII PRIMARY SCHOOL,,,,Meru,Tigania Central,,,19.285975,-98.911673
+RUUJU,,,,Meru,Tigania Central,,,0.0976,31.835399
+CHAIKURU,,,,Meru,Tigania West,,,0.011163788488,0.011163788488
+Limbine,,,,Meru,Tigania West,,,-2.169831,-114.787328
+RWONGO RWA NYANKI PRIMARY SCHOOL,,,,Meru,Tigania West,,,9.47,37.46
+TWALE MCK,,,,Meru,Tigania West,,,25.045844,-38.32747
+RABUOR KOGELO PRIMARY AND JSS,,,,Migori,Awendo,,,67.076158,8.335398
+SAKA JUNIOR SCHOOL,,,,Migori,Awendo,,,56.0,34.0
+KENDEGE PRISONS MJSS,,,,Migori,Kuria East,,,85.077532,-84.443914
+Kebaroti primary and junior school,,,,Migori,Kuria East,,,31.583772,81.312853
+SAKURI,,,,Migori,Kuria East,,,22.8,12.0
+NGUKUMAHANDO PRIMARY,,,,Migori,Kuria West,,,0.691392,30.526852
+Nyamaranya pry.school,,,,Migori,Kuria West,,,37.01,21.06
+TARAGWITI PRIMARY,,,,Migori,Kuria West,,,1.23123,3.5089
+Tarang'anya mixed school,,,,Migori,Kuria West,,,12.30117,34.559727
+NYABIRONGO MIXED PRIMARY,,,,Migori,Mabera,,,-1.187479,31.482021
+Nyamosense Primary School,,,,Migori,Mabera,,,5.331644,25.3125
+Rongabi primary,,,,Migori,Mabera,,,3.27921,1.129
+NYAMWARE,,,,Migori,Migori,,,-33.686273,-94.983832
+OPASI COMPREHENSIVE,,,,Migori,Migori,,,-3.646916,22.017179
+RADIENYA,,,,Migori,Migori,,,22.0,20.0
+Siling Primary,,,,Migori,Migori,,,-0.126343,45.649478
+TING'NA S.A,,,,Migori,Migori,,,-84.806442,-161.564827
+ORANGO,,,,Migori,Nyatike,,,12.0,34.0
+Amoyo primary school,,,,Migori,Nyatike South,,,-0.9904526,-34.174749
+KIRANDA GIRLS COMPREHENSIVE,,,,Migori,Nyatike West,,,44.5,23.5
+Tom odege ngira,,,,Migori,Nyatike West,,,34.14,8.5
+APONDO SCHOOL,,,,Migori,Rongo,,,-7.2244,34.5878
+Kangeso Primary,,,,Migori,Rongo,,,14.116766,28.256723
+NYAMAROKA COMPREHENSIVE SCHOOL,,,,Migori,Rongo,,,2e-06,1e-06
+KIKONGE COMPREHENSIVE SCHOOL,,,,Migori,Suna West,,,-79.063478,102.224877
+LELA PRIMARY SCHOOL,,,,Migori,Suna West,,,25.778523,66.625728
+NDONYO COMPRENSEVE,,,,Migori,Suna West,,,43.896837,6.183238
+NYAERA PRIMARY SCHOOL,,,,Migori,Suna West,,,5.0,5.0
+NYAMBONA COMPREHENSIVE SCHOOL,,,,Migori,Suna West,,,23.0,100.0
+ST PETERS NDEMRA COMPREHENSIVE SCHOOL,,,,Migori,Suna West,,,49.667628,-34.678705
+mangongo primary school,,,,Migori,Suna West,,,3.0,22.0
+KONDURU PRIMARY SCHOOL,,,,Migori,Uriri,,,16.4,80.34
+NYAMASARE PRIMARYJ,,,,Migori,Uriri,,,-8.8636,34.44628
+MRERONI,,,,Mombasa,Jomvu,,,90.0,-1e-06
+Consolata Catholic School,,,,Mombasa,Likoni,,,50.3,60.4
+CENTRAL GIRLS PRIMARY,,,,Mombasa,Mvita(Mombasa),,,-69.748551,-138.688438
+KALOLENI PRIMARY SCHOOL,,,,Mombasa,Mvita(Mombasa),,,47.98208,36.151618
+MAKUPA PRIMARY,,,,Mombasa,Mvita(Mombasa),,,-4.044865,-39.660129
+FATHILADHIM,,,,Mombasa,Nyali,,,-3.927735,-39.575807
+CHOMO PRIMARY AND JUNIOR SECONDARY,,,,Murang'a,Gatanga,,,-22.070369,-49.099721
+GATHAINI PRIMARY SCHOOL,,,,Murang'a,Gatanga,,,-0.907612,-36.936473
+GITEME PRIMARY SCHOOL,,,,Murang'a,Gatanga,,,-8.845324,36.871504
+KARANGI KIANA,,,,Murang'a,Gatanga,,,0.81247,86.802383
+THUITA PRIMARY SCHOOL,,,,Murang'a,Gatanga,,,-0.910249,3.973769
+SWANI PRIMARY,,,,Murang'a,ITHANGA,,,28.65129,77.30063
+KIAGUTHU PRIMARY SCHOOL,,,,Murang'a,Kahuro,,,-0.745706944,-36.96855028
+KAREMBUINI PRIMARY,,,,Murang'a,Kandara,,,-0.842357,119.914498
+Mukuria School,,,,Murang'a,Kandara,,,21.3268,105.318559
+RUKIRA PRIMARY,,,,Murang'a,Kandara,,,-29.895425,1.823112
+Mumbu primary school,,,,Murang'a,Kigumo,,,4.788845,52.854673
+MIRIRA SCHOOL,,,,Murang'a,Murang'a East,,,-76.9504,37.2437
+NYAKIHAI PRIMARY,,,,Murang'a,Murang'a East,,,59.99,37.065998
+RURII SCHOOL,,,,Murang'a,Murang'a East,,,37.0,42.0
+KAHARATI PRIMARY SCHOOL,,,,Murang'a,Murang'a South,,,0.046507,0.03089905
+Donholm Comprehensive School,,,,Nairobi City,EMBAKASI,,,-0.834931,-67.272661
+KAYOLE ONE PRIMARY AND JUNIOR SCHOOL,,,,Nairobi City,EMBAKASI,,,-73.634392,66.634459
+MARURA PRIMARY SCHOOL,,,,Nairobi City,Kasarani,,,25.45,36.87
+Mbagathi Road Primary school,,,,Nairobi City,Kibra,,,-6.700071,-69.744152
+CANON APOLO SCHOOL,,,,Nairobi City,Makadara,,,-5.032986,80.452768
+Jogoo Road Primary school,,,,Nairobi City,Makadara,,,1.2e-05,1e-05
+HURUMA PRIMARY,,,,Nairobi City,Mathare,,,36.0,36.0
+Highway Manyattta Primary,,,,Nairobi City,Njiru,,,1.00000289131613,0.000130045227706432
+RAILA EDUCATIONAL CENTRE,,,,Nairobi City,Starehe,,,52.0,42.3
+GILGIL DEB,,,,Nakuru,Gilgil,,,-0.496416138173405,0.0159645080566406
+GILGIL TEACHERS,,,,Nakuru,Gilgil,,,18.52327,6.603273
+MITI MINGI,,,,Nakuru,Gilgil,,,32.0,42.0
+Makongo primary school,,,,Nakuru,Gilgil,,,-7.898044,113.482242
+NUTHU,,,,Nakuru,Gilgil,,,42.735287,-52.719678
+TANGI SITA PRIMARY SCHOOL,,,,Nakuru,Gilgil,,,36.228175,20.955
+UTUMISHI COMPREHENSIVE SCHOOL,,,,Nakuru,Gilgil,,,6.19952,23.453774
+ARORWET PRIMARY,,,,Nakuru,Kuresoi South,,,-39.379194,1.956504
+KAPSIMBEIYWO COMPREHENSIVE SCHOOL,,,,Nakuru,Kuresoi South,,,0.5671,1.5986
+TUIYOBEI KERINGET,,,,Nakuru,Kuresoi South,,,35.0,26.0
+Tinet Forest Primary School,,,,Nakuru,Kuresoi South,,,56.036984,-124.587269
+NAKURU TEACHERS,,,,Nakuru,NAKURU EAST,,,37.907123,39.349869
+LAKEVIEW PRIMARY,,,,Nakuru,Naivasha,,,-5.68174,-7.41725
+NGEYA PRIMARY,,,,Nakuru,Naivasha,,,-0.9785968,-36.5812129
+Nyonjoro Primary School,,,,Nakuru,Naivasha,,,1e-06,1e-06
+ENGOSHURA PRIMARY SCHOOL,,,,Nakuru,Nakuru North,,,1e-06,1e-06
+Ewaat Comprehensive School,,,,Nakuru,Nakuru North,,,0.52857,0.3600449
+ST Francis Bahati,,,,Nakuru,Nakuru North,,,-0.267539,-36.16348
+Nakuru Hills Special School,,,,Nakuru,Nakuru West,,,-6.031311,34.609448
+BONDET PRIMARY SCHOOL,,,,Nakuru,Njoro,,,-0.447526,3.954523
+NDEMI PRIMARY SCHOOL,,,,Nakuru,Njoro,,,46.894698,12.569255
+NGONGOGERI COMPREHENSIVE SCHOOL,,,,Nakuru,Njoro,,,20.0,35.0
+SURURU  PRIMARY,,,,Nakuru,Njoro,,,0.38,0.26
+Kandutura Primary school,,,,Nakuru,Rongai,,,0.065,3.54803
+MANGU PRIMARY,,,,Nakuru,Rongai,,,0.1263,0.35708
+MUMOI COMPREHENSIVE,,,,Nakuru,Subukia,,,25.0,56.0
+Safina haji primary/junior school,,,,Nakuru,Subukia,,,2.57727,-24.992335
+MASABA PRIMARY SCHOOL,,,,Nandi,Chesumei,,,1e-06,-1e-06
+Segut school,,,,Nandi,Chesumei,,,-88.11829,195.756552
+Chebarus border primary school,,,,Nandi,Nandi Central,,,0.2039,0.106
+Ngomwo,,,,Nandi,Nandi Central,,,23.720576,90.392157
+ST. PATRICK CHEPSONOI PRIMARY SCHOOL,,,,Nandi,Nandi Central,,,11.12,34.37
+TULON PRIMARY,,,,Nandi,Nandi Central,,,13.796331,122.50671
+KAPTUMA PRY SCHOOL,,,,Nandi,Nandi East,,,50.652693,60.073087
+AIC KAMANYINYA,,,,Nandi,Nandi North,,,49.0,35.0
+CHEMNEGO PRIMARY SCHOOL,,,,Nandi,Nandi North,,,5.954,35.35
+KIPKOMBOT PRIMARY,,,,Nandi,Nandi North,,,0.43042,-35.0183357
+Kabiyet Township school,,,,Nandi,Nandi North,,,65.018826,-95.063467
+Kimolwet primary,,,,Nandi,Nandi North,,,1.469604,32.845117
+ST. ANDREW KAPNO,,,,Nandi,Nandi North,,,0.35,4.34334
+Soimining primary,,,,Nandi,Nandi North,,,-22.66217,124.3964
+Teresia Primary,,,,Nandi,Nandi North,,,14.87213,-92.292247
+AIC SIRGOI ACADEMY,,,,Nandi,Nandi South,,,22.331666,91.811882
+KIPCHEKWEN COMPREHENSIVE,,,,Nandi,Nandi South,,,35.84939,50.970759
+MORONGIOT PRIMARY,,,,Nandi,Nandi South,,,34.099318,34.558049
+MURGUIYWO,,,,Nandi,Nandi South,,,23.863548,-59.858275
+TENDWET PRIMARY,,,,Nandi,Nandi South,,,8.138,35.06
+KABUNYERIA,,,,Nandi,Tinderet,,,0.4352,43.5234
+KISOGA PRIMARY SCHOOL,,,,Nandi,Tinderet,,,-1.497673,16.783349
+Kitechgaa Primary School,,,,Nandi,Tinderet,,,19.327728,117.699656
+OLE SANKALE PRIMARY,,,,Narok,Narok Central,,,5.27526,5.0216
+Sosio,,,,Narok,Narok Central,,,31.798,35.5957
+Sintakara,,,,Narok,Narok East,,,14.658828,100.478401
+ESIMEENDWA PRIMARY,,,,Narok,Narok North,,,2.021065,-35.123944
+OSEYIA COMPREHENSIVE SCHOOL,,,,Narok,Narok North,,,3.3279,6.548
+Mausa,,,,Narok,Narok South,,,20.1681,35.90067
+NKIMPA PRIMARY,,,,Narok,Narok South,,,1.5026,32.7799
+Nkitintini primary school,,,,Narok,Narok South,,,1.19698,-35.7994467
+OLDOINYO,,,,Narok,Narok South,,,3.382122,29.117572
+OLENKANAE PRIMARY,,,,Narok,Narok South,,,-36.70366,19.969366
+OLOONGILA PRIMARY,,,,Narok,Narok South,,,28.594736,-106.151784
+Olchoro Olepo primary,,,,Narok,Narok South,,,-1.5653916,-35.49347052
+Olgilai ololulunga,,,,Narok,Narok South,,,-1.016325,-35.672914
+Oloisiyoi primary,,,,Narok,Narok South,,,-25.896291,-20.935877
+AITONG BOARDING PRIMARY SCHOOL,,,,Narok,Narok West,,,-8.928487,32.964409
+FRED BARON PRY,,,,Narok,Narok West,,,1.1223,3.823
+INKINEJI PRIMARY,,,,Narok,Narok West,,,43.0,51.6
+MENDERET PRIMARY,,,,Narok,Narok West,,,7.5536,35.711487
+NABOISHO PRIMARY SCHOOL,,,,Narok,Narok West,,,40.473698,-7.991514
+Olepolos primary school 7,,,,Narok,Narok West,,,1.541421,3.5886525
+Ololchura primary,,,,Narok,Narok West,,,35.3011,35.18
+Osiga,,,,Narok,Narok West,,,53.2734,-7.77832031
+SIKIRRAR PRIMARY SCHOOL,,,,Narok,Narok West,,,3.047221,32.92835
+CHEMURIN COMPREHENSIVE,,,,Narok,Trans Mara East,,,31.999044,1.887276
+CHESOEN,,,,Narok,Trans Mara East,,,46.950262,-49.683542
+KIRIBWET PRIMARY SCHOOL,,,,Narok,Trans Mara East,,,-27.357977,-70.304169
+MOKONDO PRIMARY SCHOOL,,,,Narok,Trans Mara East,,,0.01938546,14.97532979
+ILOOKWAYA PRIMARY AND JUNIOR SCHOOL,,,,Narok,Trans Mara South,,,51.0,35.0
+OLIASHIRE,,,,Narok,Trans Mara South,,,1.214394,24.86284
+SNR. CHIEF OLENKOIDILLAH COMPREHENSIVE SCHOOL,,,,Narok,Trans Mara South,,,1.274309,-28.576601
+Oldanyati School,,,,Narok,Trans Mara West,,,0.5,1.5
+KINENI CALVARY,,,,Nyamira,Borabu,,,2.460181,22.841559
+Nyagacho dok primary school,,,,Nyamira,Borabu,,,0.68545,0.68535
+KENYAMWARE DEB,,,,Nyamira,Manga,,,-76.005957,40.984269
+MOKORONGOSI DOK PRIMARY/JS,,,,Nyamira,Manga,,,-0.66431,-34.826282
+OGANGO SPECIAL SCHOOL,,,,Nyamira,Manga,,,-1e-06,1e-06
+OMOGOMBA SDA PRIMARY,,,,Nyamira,Manga,,,-1.17629216183693,-36.7600036394086
+Rionguti,,,,Nyamira,Manga,,,11.05,39.87
+Bocharia PAG,,,,Nyamira,Masaba North,,,0.75,3.932
+GESURE LCK PRIMARY SCHOOL,,,,Nyamira,Masaba North,,,84.126976,-232.644371
+GITWEBE DEB COMPREHENSIVE SCHOOL,,,,Nyamira,Masaba North,,,52.20197,74.1725
+KENANI DOK PRIMARY,,,,Nyamira,Masaba North,,,50.4214,34.5218
+RIKENYE DEB PRIMARY SCHOOL,,,,Nyamira,Masaba North,,,43.16,10.12
+EGENTUBI DEB PRIMARY SCHOOL,,,,Nyamira,Nyamira North,,,1e-06,1e-06
+ETONO SDA BOARDING PRIMARY SCHOOL,,,,Nyamira,Nyamira North,,,1e-06,1e-06
+MISAMBI COMPREHENSIVE SCHOOL,,,,Nyamira,Nyamira North,,,27.2046,77.4977
+Nyamatuta DEB,,,,Nyamira,Nyamira North,,,7.468745,32.96474
+RIANYAMAGE DOK PRIMARY AND JSS,,,,Nyamira,Nyamira North,,,45.01655,0.49968
+GIRIGIRI DEB COMPREHENSIVE SCHOOL,,,,Nyamira,Nyamira South,,,33.231846,71.667356
+IGENAITAMBE DEB,,,,Nyamira,Nyamira South,,,3e-06,3e-06
+KEBIRIGO MIXED DAY AND BOARDING PRIMARY,,,,Nyamira,Nyamira South,,,1e-06,1e-06
+MOBAMBA DOK PRIMARY,,,,Nyamira,Nyamira South,,,88.8,58.9
+MONGORISIA PRIMARY SCHOOL,,,,Nyamira,Nyamira South,,,53.67068,-49.683542
+NYAKEORE SPECIAL SCHOOL,,,,Nyamira,Nyamira South,,,5e-06,8e-06
+Nyabisimba,,,,Nyamira,Nyamira South,,,28.620951,77.279922
+MARA COMPREHENSIVE SCHOOL,,,,Nyandarua,Kipipiri,,,-0.398928,-36.494125
+RIRICHUA PRIMARY SCHOOL,,,,Nyandarua,Kipipiri,,,-0.561367,-36.355057
+ST MARY'S NGORIKA SPECIAL PRIMARY SCHOOL,,,,Nyandarua,MIRANGINE,,,58.608334,-126.496251
+Matundura Primary School,,,,Nyandarua,NORTH KINANGOP,,,37.53,36.3034
+GIKINGI PRIMARY SCHOOL,,,,Nyandarua,Nyandarua West,,,29.42046,-65.161966
+BARAINYA JUNIOR SCHOOL,,,,Nyandarua,South Kinangop,,,35.710838,-21.92496
+KIMATHI SCHOOL,,,,Nyandarua,South Kinangop,,,31.882267,77.150179
+NDOTHUA JUNIOR,,,,Nyandarua,South Kinangop,,,21.441629,105.504209
+MUKIRI,,,,Nyandarua,WANJOHI,,,47.0,36.0
+NGARU SCHOOL,,,,Nyeri,Kieni West,,,-1.453987,-77.125068
+Gatura comprehensive,,,,Nyeri,Mathira East,,,-72.618406,4.039611
+ITUNDU PRIMARY SCHOOL,,,,Nyeri,Mathira East,,,51.9903,4.2075
+KARATINA SPECIAL SCHOOL FOR MH,,,,Nyeri,Mathira East,,,-4e-06,1e-06
+Ngorano Primary,,,,Nyeri,Mathira West,,,71.695957,73.238611
+Ihwa primary,,,,Nyeri,Nyeri Central,,,0.34482,0.48826
+KARIMA PRIMARY,,,,Nyeri,Nyeri South,,,-79.160751,-34.468406
+KIINU PRIMARY,,,,Nyeri,Nyeri South,,,-1.713735,-81.558477
+KONYU PRIMARY,,,,Nyeri,Nyeri South,,,53.3487,-6.2607
+GATUMBIRO,,,,Nyeri,Tetu,,,0.000979,-0.00226
+GONDO,,,,Nyeri,Tetu,,,45.0,30.0
+NGOORU PRIMARY SCHOOL,,,,Nyeri,Tetu,,,40.988192,-52.497801
+KELELE PRIMARY SCHOOL,,,,Samburu,Samburu Central,,,0.7844,10.4714
+LAKIRA PRIMARY SCHOOL,,,,Samburu,Samburu Central,,,36.17,19.5
+Lowua pry school.,,,,Samburu,Samburu Central,,,25.0,30.0
+LEMPAUTE PRIMARY SCHOOL,,,,Samburu,Samburu East,,,37.0,83.0
+LENTANAI PRIMARY,,,,Samburu,Samburu East,,,8.0,37.329855
+Lengarde primary school,,,,Samburu,Samburu East,,,1.048878,31.38548
+ngilai primary and junior school,,,,Samburu,Samburu North,,,-5.8e-05,1e-06
+ABOM PRIMARY AND JUNIOR SCHOOL,,,,Siaya,Bondo,,,-30.272782,-17.436916
+KeyoKodindo primary,,,,Siaya,Bondo,,,-0.05341,-34.311467
+OIKO,,,,Siaya,Bondo,,,70.14557,34.25874
+St Mary's Nyangoma Primary school for the deaf,,,,Siaya,Bondo,,,2.730557,32.845202
+Usire,,,,Siaya,Bondo,,,0.0948,24.27489
+MAWERE,,,,Siaya,Gem_Wagai,,,6.6613,3.3896
+SINAGA PRIMARY AND JUNIOR SCHOOL,,,,Siaya,Gem_Yala,,,23.308008,-98.977999
+LELA PRIMARY SCHOOL,,,,Siaya,Rarieda,,,33.444,39.333
+RARIW PRY & JUNIOR SCHOOL,,,,Siaya,Rarieda,,,-6.727348,-39.089397
+Saradidi primary school,,,,Siaya,Rarieda,,,1.23569,0.98213
+Lwala Kaor primary and Junior school,,,,Siaya,Siaya,,,13.125655,79.930419
+PAP OLENGO,,,,Siaya,Siaya,,,-28.536275,211.640625
+HAFUMBRE PRIMARY,,,,Siaya,Ugenya,,,0.254916,31.1487693
+OGEYA,,,,Siaya,Ugenya,,,70.74495,-51.293758
+ST PATRICKS' UKWALA GIRLS PRIMARY AND JUNIOR SCHOOL,,,,Siaya,Ugenya,,,4.21053351683888,4.43108977281955
+Kanyibok primary,,,,Siaya,Usigu,,,0.82619,-34.076903
+WAMBASA PRIMARY SCHOOL,,,,Siaya,Usigu,,,-19.6583,34.353417
+NAKRUTO COMPREHENSIVE SCHOOL,,,,Taita/Taveta,Taveta,,,33.338815,37.714249
+St Noberts Tangini,,,,Taita/Taveta,Taveta,,,-53.244519,-62.500198
+MLAWA COMPREHENSIVE SCHOOL,,,,Taita/Taveta,Wundanyi(Taita),,,-3.2359,-38.2138
+MLILO primary school,,,,Taita/Taveta,Wundanyi(Taita),,,-82.552144,80.474874
+SHIGHARO,,,,Taita/Taveta,Wundanyi(Taita),,,0.07875,10.135298
+HABAKIK COMPREHENSIVE SCHOOL,,,,Tana River,Bangale,,,-33.872347,-63.082294
+BAHATI PRIMARY SCHOOL,,,,Tana River,Tana Delta,,,2.9632,8.521
+DIBE PRIMARY,,,,Tana River,Tana Delta,,,23.53508,40.19405
+Dalu primary,,,,Tana River,Tana Delta,,,12.431212,-59.181666
+CCM GAKURUNGU PRIMARY,,,,Tharaka-Nithi,CHIAKAGIRA,,,0.618029679711283,-0.0215014752409104
+KIJEGE PRIMARY SCHOOL,,,,Tharaka-Nithi,CHIAKAGIRA,,,0.229343,-321.58019
+NAIROBI NDOGO,,,,Tharaka-Nithi,Igambango'ombe,,,40.741895,73.989308
+Nthima,,,,Tharaka-Nithi,Igambango'ombe,,,21.2,37.41
+IRUMA PRIMARY  SCHOOL,,,,Tharaka-Nithi,Maara,,,35.8358,139.3911
+Kirindini primary school,,,,Tharaka-Nithi,Maara,,,-50.339371,-84.983112
+NDUNGURI PRIMARY,,,,Tharaka-Nithi,Maara,,,34.669214,45.227877
+NGERU,,,,Tharaka-Nithi,Maara,,,67.671,0.24425
+NTURIRI PRIMARY SCHOOL,,,,Tharaka-Nithi,Maara,,,36.0,32.0
+KK MWENDWA,,,,Tharaka-Nithi,Meru North,,,0.3178,7.683302
+Mungoni,,,,Tharaka-Nithi,Meru North,,,-11.85,33.417
+NTURIA PRIMARY SCHOOL,,,,Tharaka-Nithi,Meru North,,,37.69,37.42
+NTAGATANI PRIMARY SCHOOL,,,,Tharaka-Nithi,Meru South,,,-0.346299,-37.856019
+Kanoro,,,,Tharaka-Nithi,Muthambi,,,0.280146,13.763729
+DEB KARETHANI SPECIAL SCHOOL FOR MH,,,,Tharaka-Nithi,Tharaka North,,,-0.122454,33.015966
+KAMUTUANDU PRIMARY,,,,Tharaka-Nithi,Tharaka North,,,13.864685,-163.127142
+KARUGUARU PRIMARY schools in,,,,Tharaka-Nithi,Tharaka North,,,32.244675,-77.942889
+Ithanga school,,,,Tharaka-Nithi,Tharaka South,,,24.947655,66.991966
+Andersen primary and ajunio,,,,Trans Nzoia,Endebess,,,12.36,23.0
+ENDEBESS  ESTATE PRIMARY SCHOOL,,,,Trans Nzoia,Endebess,,,23.021604,1.695811
+KITINDA,,,,Trans Nzoia,Endebess,,,-43.558642,-26.305932
+Baraton primary,,,,Trans Nzoia,Kiminini,,,9.938394,34.0946929
+KABUYEFWE PRIMARY SCHOOL,,,,Trans Nzoia,Kiminini,,,-3.758279,-38.615257
+MOSORIOT PRIMARY SCHOOL,,,,Trans Nzoia,Kiminini,,,51.536086,-29.98373
+NAMANDA PRIMARY SCHOOL,,,,Trans Nzoia,Kiminini,,,17.0,34.0
+Sikhendu primary school,,,,Trans Nzoia,Kiminini,,,-8.660515,48.904552
+Sirende special unit,,,,Trans Nzoia,Kiminini,,,58.27,35.3
+MATISI BLOCK PRIMARY,,,,Trans Nzoia,Kwanza,,,13.31,34.5713
+MILIMA A PRIMARY SCHOOL,,,,Trans Nzoia,Kwanza,,,5.353521,-152.845919
+ACK GOOD SAMARITAN BERUR PRIMARY SCHOOL,,,,Trans Nzoia,Saboti / TN West,,,51.991609,4.206592
+FRIENDS MATISI SCHOOL to,,,,Trans Nzoia,Saboti / TN West,,,1.04,-34.97
+CHEPKAOS PRIMARY,,,,Trans Nzoia,Trans Nzoia East,,,41.90426,91.58881
+KIRIITA PRIMARY SCHOOL,,,,Trans Nzoia,Trans Nzoia East,,,-84.63263,135.363302
+SINOKO PRIMARY,,,,Trans Nzoia,Trans Nzoia East,,,6.369169,31.05146
+TULON PRIMARY SCHOOL,,,,Trans Nzoia,Trans Nzoia East,,,0.9582,32.2127
+Yuya primary,,,,Trans Nzoia,Trans Nzoia East,,,0.000164,-0.000113
+Kibish primary school,,,,Turkana,Kibish,,,-1.979927,67.181189
+ST MATHEW NADOME PRIMARY SCHOOL,,,,Turkana,LOKICHOGGIO,,,0.6923643,33.45723549
+ST PATRICK LOMIDAT PRIMARY SCHOOL,,,,Turkana,LOKICHOGGIO,,,45.0393989,43.0394
+Logogo primary school,,,,Turkana,Loima,,,29.2418,36.8169
+Lopongo primary school,,,,Turkana,Turkana Central,,,34.98316,35.800348
+MERIER PRIMARY SCHOOL,,,,Turkana,Turkana Central,,,-6.446411,21.380101
+LOARENGAK GIRLS PRIMARY SCHOOL,,,,Turkana,Turkana North,,,3.42576,3.2679
+ELDORET SPECIAL SCHOOL FOR MENTALLY CHALLENGED,,,,Uasin Gishu,Ainabkoi,,,-0.106666674873314,0.00351620329237079
+LENGUT PRIMARY SCHOOL,,,,Uasin Gishu,Kapseret,,,-15.536023,-144.384849
+ST. JOSEPH COMPREHENSIVE SCHOOL,,,,Uasin Gishu,Kapseret,,,23.5,35.1118
+CHESUNET PRIMARY SCHOOL,,,,Uasin Gishu,Kesses,,,22.356744,-15.784167
+MOGOCHORET PRIMARY SCHOOL,,,,Uasin Gishu,Kesses,,,16.992511,11.995625
+TUGEN ESTATE PRIMARY AND JUNIOR SCHOOL,,,,Uasin Gishu,Moiben,,,-0.002092,0.000237
+Jabali primary and junior school,,,,Uasin Gishu,Soy,,,16.906674,-96.72461
+Kuresok school,,,,Uasin Gishu,Soy,,,5.719162,18.6231
+Ngeny primary,,,,Uasin Gishu,Soy,,,0.86,320.0
+St. Thomas Mararai Primary,,,,Uasin Gishu,Soy,,,-32.132011,-192.169065
+KAPKURES HILL SCHOOL,,,,Uasin Gishu,Turbo,,,34.0,54.0
+KAPLELACH NORTH PRIMARY,,,,Uasin Gishu,Turbo,,,27.2046,77.4977
+KAPTENDON PRIMARY AND JUNIOR SCHOOL,,,,Uasin Gishu,Turbo,,,25.081984,-91.49108
+Sigowet primary school /Js,,,,Uasin Gishu,Turbo,,,0.590123,0.590123
+KISASI PRIMARY SCHOOL,,,,Vihiga,Hamisi,,,-89.603271,-128.267578
+MUTIVA PRIMARY,,,,Vihiga,Hamisi,,,0.0478,54.9
+EBULONGA PRIMARY SCHOOL,,,,Vihiga,Luanda,,,0.04199,43.616837
+EMUKHUYA PRIMARY SCHOOL AND JUNIOR SECONDARY,,,,Vihiga,Luanda,,,2.049159,-325.516192
+Khwiliba primary,,,,Vihiga,Luanda,,,19.852184,-142.838105
+CHEKOMBERO SA PRIMARY SCHOOL,,,,Vihiga,Sabatia,,,-0.124821,-34.788406
+KIGUNGA PRIMARY AND  JUNIOR SCHOOL,,,,Vihiga,Sabatia,,,29.426416,-19.785483
+LOSENGELI PRIMARY SCHOOL,,,,Vihiga,Sabatia,,,-29.181918,-93.476934
+MULUNDU PRIMARY SCHOOL,,,,Vihiga,Sabatia,,,0.120609562129627,0.105930728022941
+Chavavo primary school,,,,Vihiga,Vihiga,,,-87.559353,50.847467
+NAVUHI PRIMARY SCHOOL,,,,Vihiga,Vihiga,,,28.502488,-71.845831
+VIHIGA PRIMARY SCHOOL,,,,Vihiga,Vihiga,,,-0.131836,31.948435
+CHIPDER MIXED NURSERY AND PRIMARY SCHOOL,,,,Wajir,Buna,,,1.4543,2.67506
+DADACHDERA PRIMARY SCHOOL,,,,Wajir,Buna,,,2.90808,42.75
+EL-BORUIDO MIXED DAY NURSERY AND PRIMARY SCHOOL,,,,Wajir,Buna,,,0.259278791358542,59.4510901060901
+GARSEAKE PRIMARY,,,,Wajir,Buna,,,30.433,93.9624
+ANOLE PRIMARY & JUNIOR SCHOOL,,,,Wajir,Eldas,,,2.498454,3.730254
+JUKALA PRIMARY SCHOOL,,,,Wajir,Eldas,,,48.8566,2.35221
+ALANUS PRIMARY SCHOOL,,,,Wajir,Habaswein,,,-0.357987953689253,-0.0290994298277814
+FURMATI PRIMARY AND JUNIOR SECONDARY SCHOOL,,,,Wajir,Habaswein,,,3.383859,29.116882
+KANJARA PRIMARY AND JUNIOR SCHOOL,,,,Wajir,Hadado,,,64.661517,-110.624121
+OMAR DIGILE PRIMARY,,,,Wajir,Hadado,,,1.3,3.6
+Rabsu primary school,,,,Wajir,KORONDILLE,,,47.889098,33.278695
+Burder primary and junior secondary school,,,,Wajir,Kutulo,,,4.444152,1.92006
+BARWAQO GIRLS PRIMARY AND JUNIOR SCHOOL,,,,Wajir,Wajir East,,,32.914364,-111.979455
+Halane,,,,Wajir,Wajir East,,,1.7567,4.0
+WAJIR  FULL INTEGRATED PRIMARY AND JUNIOR SCHOOL,,,,Wajir,Wajir East,,,44.732964,37.752041
+HARADULA PRIMARY SCHOOL,,,,Wajir,Wajir North,,,41.574907,38.037339
+Welmur,,,,Wajir,Wajir North,,,31.740139,3.93472
+WICHIR PRIMARY AND JUNIOR SCHOOL,,,,Wajir,Wajir West,,,35.999876,40.004373
+BRON PRIMARY SCHOOL,,,,Wajir,sabuli,,,0.52817,0.40775474
+MUQDEER PRIMARY SCHOOL,,,,Wajir,sabuli,,,39.960391,32.709698
+KALEMNGOROK PRIMARY SCHOOL,,,,West Pokot,Kacheliba,,,-22.271033,-6.392997
+KAPETAKINEI PRIMARY AND JSS,,,,West Pokot,Kacheliba,,,1e-06,1e-06
+KOPULIO PRIMARY,,,,West Pokot,Kacheliba,,,1.26,30.07
+MORONGOR PRIMARY SCHOOL,,,,West Pokot,Kacheliba,,,0.35,3.56
+KALYA PRIMARY SCHOOL,,,,West Pokot,Kipkomo,,,1.668,3.5
+KAPTINGWO PRIMARY SCHOOL,,,,West Pokot,Kipkomo,,,19.200856,32.995261
+Kasekon primary school,,,,West Pokot,Kipkomo,,,1.21,51.5
+PERTOM HOLYCROSS PRIMARY SCHOOL,,,,West Pokot,Kipkomo,,,1.665,3.5
+ST. JOSHUA PLELAKAN PRIMARY SCHOOL,,,,West Pokot,Kipkomo,,,1.665,3.452
+St maryGoretti Orolwo,,,,West Pokot,Kipkomo,,,16.0,38.0
+psirwo primary,,,,West Pokot,Kipkomo,,,1.66,3.55
+ANNIKEN PRIMARY,,,,West Pokot,Pokot Central,,,1.25,31.41
+EMBORUKUT PRIMARY,,,,West Pokot,Pokot Central,,,6.870739,79.859234
+Komugh primary school and junior secondary,,,,West Pokot,Pokot Central,,,10.2,34.04
+MOI MASOL,,,,West Pokot,Pokot Central,,,1e-06,1e-06
+Too-sostin,,,,West Pokot,Pokot Central,,,25.0,30.0
+Kases primary,,,,West Pokot,Pokot North,,,26.566,35.122
+MOINOI PRIMARY,,,,West Pokot,Pokot North,,,21.0,31.0
+NASAL PRIMARY SCHOOL,,,,West Pokot,Pokot North,,,80.0,120.0
+Tarakit comprehensive school,,,,West Pokot,Pokot North,,,35.001,35.001
+GHATIAREL PRIMARY,,,,West Pokot,Pokot South,,,-85.051015,-52.421063
+KAPCHIKAR PRIMARY AND JUNIOR,,,,West Pokot,Pokot South,,,1.3702,0.3545
+KAWORONY PRIMARY SCHOOL,,,,West Pokot,Pokot South,,,49.217,45.31
+SESIMWO PRIMARY,,,,West Pokot,Pokot South,,,43.484806,-39.140799
+TORION PRIMARY,,,,West Pokot,Pokot South,,,13.125655,79.930419
+AFC KAPYEMUT PRIMARY,,,,West Pokot,West Pokot,,,50.214915,-6.064736
+CHEPOKACHIM PRIM,,,,West Pokot,West Pokot,,,47.901614,-22.948083
+Katukumwok primary and ecde,,,,West Pokot,West Pokot,,,1.0,23.0
+Kochar primary school,,,,West Pokot,West Pokot,,,27.220185,-168.801859
+LETWA PRIMARY SCHOOL,,,,West Pokot,West Pokot,,,1.55,32.29
+NAPAWOI PRIMARY SCHOOL,,,,West Pokot,West Pokot,,,34.0,34.0
+TINDAR SCHOOL,,,,West Pokot,West Pokot,,,35.0,35.0
