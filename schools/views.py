@@ -2,7 +2,7 @@ import json
 from functools import lru_cache
 
 from django.conf import settings
-from django.db import OperationalError
+from django.db import DatabaseError, OperationalError
 from django.http import JsonResponse
 from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
@@ -171,7 +171,7 @@ def load_school_db():
 def get_school_data():
     try:
         return load_school_db()
-    except OperationalError:
+    except (OperationalError, DatabaseError):
         return load_school_json()
 
 
@@ -200,7 +200,7 @@ def get_subcounties_geojson():
                 }
             )
         return data
-    except OperationalError:
+    except (OperationalError, DatabaseError):
         return load_geojson_data("subcounties.geojson")
 
 
@@ -225,7 +225,7 @@ def get_climate_points():
                 )
             if points:
                 return points
-    except OperationalError:
+    except (OperationalError, DatabaseError):
         pass
 
     geo = load_geojson_data("climate_all.geojson")
