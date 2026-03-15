@@ -2,6 +2,7 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
+    path('healthz/', views.healthz, name='healthz'),
     path('map/', views.map_view, name='map'),  # main map
     path('region/', views.region_view, name='region'),  # new region page
     path('schools-data/', views.schools_data, name='schools-data'),

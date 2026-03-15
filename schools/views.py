@@ -27,6 +27,10 @@ def region_view(request):
     return render(request, "region.html", {"region_name": region_name})
 
 
+def healthz(request):
+    return JsonResponse({"status": "ok"})
+
+
 def parse_int(value, default, minimum=None, maximum=None):
     try:
         parsed = int(value)
