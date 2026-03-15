@@ -174,9 +174,12 @@ def load_school_db():
 
 def get_school_data():
     try:
-        return load_school_db()
-    except (OperationalError, DatabaseError):
         return load_school_json()
+    except Exception:
+        try:
+            return load_school_db()
+        except (OperationalError, DatabaseError):
+            return []
 
 
 @lru_cache(maxsize=4)
