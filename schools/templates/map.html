@@ -289,7 +289,6 @@ function clearLayers() {
 
 function resetMap() {
     clearLayers();
-    showRain();
     map.setView([0.0236, 37.9062], 6);
 }
 
@@ -427,7 +426,7 @@ fetch("/schools-data/")
     });
 
 refreshStatus();
-showRain();
+updateStatus("Counties loading | Subcounties loading | Schools loading | Climate ready on button click");
 </script>
 
 </body>
