@@ -1,6 +1,7 @@
 import csv
 import json
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 
@@ -51,7 +52,9 @@ def build_feature(row):
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python scripts/update_climate_from_csv.py <csv_path> [output_geojson_path]")
+        print(
+            "Usage: python scripts/update_climate_from_csv.py <csv_path> [output_geojson_path] [source_name]"
+        )
         raise SystemExit(1)
 
     project_root = Path(__file__).resolve().parents[1]
@@ -61,6 +64,8 @@ def main():
         if len(sys.argv) > 2
         else project_root / "schools" / "static" / "data" / "climate_all.geojson"
     )
+    source_name = sys.argv[3] if len(sys.argv) > 3 else "manual_csv_update"
+    metadata_path = project_root / "schools" / "static" / "data" / "climate_metadata.json"
 
     if not csv_path.exists():
         print(f"CSV file not found: {csv_path}")
@@ -83,7 +88,17 @@ def main():
     with open(output_path, "w", encoding="utf-8") as handle:
         json.dump(payload, handle, separators=(",", ":"))
 
+    metadata = {
+        "source": source_name,
+        "input_file": str(csv_path),
+        "updated_at_utc": datetime.now(timezone.utc).isoformat(),
+        "record_count": len(features),
+    }
+    with open(metadata_path, "w", encoding="utf-8") as handle:
+        json.dump(metadata, handle, indent=2)
+
     print(f"Wrote {len(features)} climate points to {output_path}")
+    print(f"Wrote climate metadata to {metadata_path}")
 
 
 if __name__ == "__main__":

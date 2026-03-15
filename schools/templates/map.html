@@ -110,6 +110,7 @@ var schoolCluster = L.markerClusterGroup();
 var allSchools = [];
 var countiesGeo;
 var climateCache = null;
+var climateMeta = null;
 
 var kenyaSW = L.latLng(-5.2, 33.5);
 var kenyaNE = L.latLng(5.5, 42.5);
@@ -142,6 +143,9 @@ function refreshStatus() {
     parts.push(subcountyLayer ? "Subcounties loaded" : "Subcounties pending");
     parts.push(allSchools.length ? ("Schools: " + allSchools.length) : "Schools pending");
     parts.push(climateCache ? ("Climate points: " + climateCache.length) : "Climate pending");
+    if (climateMeta && climateMeta.source) {
+        parts.push("Climate source: " + climateMeta.source);
+    }
     updateStatus(parts.join(" | "));
 }
 
@@ -423,6 +427,16 @@ fetch("/schools-data/")
     .catch(function (error) {
         updateStatus("Schools failed to load");
         console.warn("Schools not loaded", error);
+    });
+
+fetch("/climate-metadata/")
+    .then(function (res) { return res.json(); })
+    .then(function (data) {
+        climateMeta = data;
+        refreshStatus();
+    })
+    .catch(function (error) {
+        console.warn("Climate metadata not loaded", error);
     });
 
 refreshStatus();

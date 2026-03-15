@@ -7,6 +7,7 @@ urlpatterns = [
     path('region/', views.region_view, name='region'),  # new region page
     path('schools-data/', views.schools_data, name='schools-data'),
     path('climate-surface/', views.climate_surface, name='climate_surface'),
+    path('climate-metadata/', views.climate_metadata, name='climate_metadata'),
     path('api/', views.api_index, name='api_index'),
     path('api/counties/', views.counties_api, name='counties_api'),
     path('api/counties/geojson/', views.counties_geojson_api, name='counties_geojson_api'),

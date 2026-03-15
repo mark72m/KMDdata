@@ -261,6 +261,23 @@ def get_climate_points():
     return points
 
 
+@lru_cache(maxsize=1)
+def get_climate_metadata():
+    metadata_path = settings.BASE_DIR / "schools" / "static" / "data" / "climate_metadata.json"
+    if metadata_path.exists():
+        try:
+            with open(metadata_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except (OSError, json.JSONDecodeError):
+            pass
+
+    return {
+        "source": "bundled_climate_file",
+        "updated_at_utc": None,
+        "record_count": len(get_climate_points()),
+    }
+
+
 def to_geojson_features(records, property_keys):
     features = []
     for record in records:
@@ -323,6 +340,10 @@ def schools_data(request):
 
 def climate_surface(request):
     return JsonResponse(get_climate_points(), safe=False)
+
+
+def climate_metadata(request):
+    return JsonResponse(get_climate_metadata())
 
 
 def api_index(request):
