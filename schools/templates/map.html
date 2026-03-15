@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kenya Geo Intelligence Demo</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css">
+
+<style>
+:root {
+    --bg: #f4f1e8;
+    --panel: rgba(252, 249, 243, 0.92);
+    --panel-strong: #fffdf8;
+    --ink: #17211f;
+    --muted: #65706c;
+    --line: rgba(23, 33, 31, 0.12);
+    --accent: #0e6b52;
+    --accent-2: #ca5f2c;
+    --shadow: 0 18px 45px rgba(23, 33, 31, 0.12);
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    color: var(--ink);
+    background:
+        radial-gradient(circle at top left, rgba(202, 95, 44, 0.16), transparent 30%),
+        radial-gradient(circle at top right, rgba(14, 107, 82, 0.18), transparent 34%),
+        linear-gradient(180deg, #f8f4ec 0%, #efe7da 100%);
+}
+.shell {
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: 360px minmax(0, 1fr);
+    gap: 16px;
+    padding: 16px;
+}
+.sidebar, .map-panel {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(12px);
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 22px 20px;
+    gap: 18px;
+}
+.eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 8px;
+}
+h1 {
+    margin: 0;
+    font-size: 34px;
+    line-height: 1;
+    font-weight: 600;
+}
+.lede {
+    margin: 10px 0 0;
+    font-family: Arial, sans-serif;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.5;
+}
+.stats {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+}
+.stat {
+    padding: 14px;
+    border-radius: 18px;
+    background: var(--panel-strong);
+    border: 1px solid var(--line);
+}
+.stat-label {
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-family: Arial, sans-serif;
+}
+.stat-value {
+    margin-top: 8px;
+    font-size: 28px;
+    line-height: 1;
+}
+.section-title {
+    margin: 0 0 8px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+.control-block {
+    padding: 14px;
+    border-radius: 18px;
+    background: var(--panel-strong);
+    border: 1px solid var(--line);
+}
+.controls-row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+input {
+    width: 100%;
+    padding: 11px 12px;
+    border-radius: 12px;
+    border: 1px solid rgba(23, 33, 31, 0.15);
+    background: white;
+    color: var(--ink);
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+button {
+    border: 0;
+    border-radius: 999px;
+    padding: 11px 15px;
+    background: var(--accent);
+    color: white;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+button.secondary { background: #2f4f45; }
+button.ghost {
+    background: transparent;
+    color: var(--ink);
+    border: 1px solid rgba(23, 33, 31, 0.18);
+}
+.toggle-list {
+    display: grid;
+    gap: 10px;
+}
+.toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px dashed rgba(23, 33, 31, 0.12);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.toggle:last-child { border-bottom: 0; }
+.toggle input { width: auto; transform: scale(1.15); accent-color: var(--accent); }
+.status-line, .focus-copy {
+    font-family: Arial, sans-serif;
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.5;
+}
+.focus-title {
+    margin: 0;
+    font-size: 22px;
+}
+.map-panel {
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr);
+    overflow: hidden;
+}
+.map-topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 18px 20px;
+    border-bottom: 1px solid var(--line);
+}
+.map-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.map-heading strong {
+    font-size: 22px;
+    font-weight: 600;
+}
+.map-heading span {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: var(--muted);
+}
+.pillbar {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.pill {
+    padding: 8px 12px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.8);
+    border: 1px solid var(--line);
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+.map-wrap {
+    position: relative;
+    min-height: 560px;
+}
+#map { width: 100%; height: 100%; }
+.loading {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 14px;
+    background: rgba(23, 33, 31, 0.88);
+    color: white;
+    border-radius: 999px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    display: none;
+    z-index: 1000;
+}
+.legend {
+    background: rgba(255,255,255,0.94);
+    padding: 12px;
+    line-height: 20px;
+    border-radius: 16px;
+    font-size: 13px;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.14);
+    max-width: 220px;
+}
+.legend i {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.9;
+    border: 1px solid #666;
+}
+.legend b {
+    display: block;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ece6d8;
+    padding-bottom: 3px;
+}
+@media (max-width: 1080px) {
+    .shell { grid-template-columns: 1fr; }
+    .map-wrap { min-height: 72vh; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+    <aside class="sidebar">
+        <section>
+            <div class="eyebrow">Fast Browser Demo</div>
+            <h1>Kenya Geo Intelligence</h1>
+            <p class="lede">
+                This version is optimized to load quickly. It fetches only counties first, then streams
+                schools and climate points for the current map view instead of drawing the whole country at once.
+            </p>
+        </section>
+
+        <section class="stats">
+            <div class="stat">
+                <div class="stat-label">Counties</div>
+                <div class="stat-value" id="statCounties">0</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Subcounties</div>
+                <div class="stat-value" id="statSubcounties">0</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Visible Schools</div>
+                <div class="stat-value" id="statSchools">0</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Visible Climate</div>
+                <div class="stat-value" id="statClimate">0</div>
+            </div>
+        </section>
+
+        <section class="control-block">
+            <h2 class="section-title">Find a Place</h2>
+            <div class="controls-row">
+                <input type="text" id="searchBox" placeholder="County or subcounty">
+            </div>
+            <div class="controls-row" style="margin-top: 10px;">
+                <button onclick="searchLocation()">Search</button>
+                <button class="secondary" onclick="focusKenya()">Kenya View</button>
+                <button class="ghost" onclick="resetExperience()">Reset</button>
+            </div>
+        </section>
+
+        <section class="control-block">
+            <h2 class="section-title">Climate Layer</h2>
+            <div class="controls-row">
+                <button onclick="showRain()">Rainfall</button>
+                <button class="secondary" onclick="showTmin()">Min Temp</button>
+                <button class="secondary" onclick="showTmax()">Max Temp</button>
+            </div>
+        </section>
+
+        <section class="control-block">
+            <h2 class="section-title">Visible Layers</h2>
+            <div class="toggle-list">
+                <label class="toggle"><span>School markers</span><input type="checkbox" id="toggleSchools" checked></label>
+                <label class="toggle"><span>County outlines</span><input type="checkbox" id="toggleCounties" checked></label>
+                <label class="toggle"><span>Subcounty outlines</span><input type="checkbox" id="toggleSubcounties"></label>
+                <label class="toggle"><span>Climate overlay</span><input type="checkbox" id="toggleClimate" checked></label>
+            </div>
+        </section>
+
+        <section class="control-block">
+            <h2 class="section-title">Current Focus</h2>
+            <h3 class="focus-title" id="focusTitle">Whole Kenya</h3>
+            <div class="focus-copy" id="focusCopy">
+                National overview. Schools and climate load only for the visible map window to keep the page fast.
+            </div>
+        </section>
+
+        <section class="control-block">
+            <h2 class="section-title">Load Status</h2>
+            <div class="status-line" id="statusBar">Preparing data layers...</div>
+        </section>
+    </aside>
+
+    <main class="map-panel">
+        <div class="map-topbar">
+            <div class="map-heading">
+                <strong>Progressive map loading</strong>
+                <span>Zoom or pan to load more schools and climate points in the current view</span>
+            </div>
+            <div class="pillbar">
+                <div class="pill" id="activeMetric">Active climate: Rainfall</div>
+                <div class="pill" id="focusPill">Focus: Kenya</div>
+            </div>
+        </div>
+        <div class="map-wrap">
+            <div id="map"></div>
+            <div class="loading" id="loading">Loading visible data…</div>
+        </div>
+    </main>
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+<script>
+var map = L.map("map", { zoomControl: false }).setView([0.0236, 37.9062], 6);
+L.control.zoom({ position: "bottomright" }).addTo(map);
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 18,
+    attribution: "OpenStreetMap contributors"
+}).addTo(map);
+
+var countyLayer = null;
+var subcountyLayer = null;
+var climateLayer = L.layerGroup();
+var schoolCluster = L.markerClusterGroup({ disableClusteringAtZoom: 10, maxClusterRadius: 42 });
+var climateCache = [];
+var activeClimateField = "rain";
+var activeClimateLabel = "Rainfall";
+var subcountiesLoaded = false;
+var loadTimer = null;
+var climateRequestId = 0;
+var schoolRequestId = 0;
+
+var kenyaBounds = L.latLngBounds(L.latLng(-5.2, 33.5), L.latLng(5.5, 42.5));
+map.setMaxBounds(kenyaBounds);
+map.options.minZoom = 6;
+schoolCluster.addTo(map);
+climateLayer.addTo(map);
+
+var legend = L.control({ position: "bottomleft" });
+legend.onAdd = function () {
+    this._div = L.DomUtil.create("div", "legend");
+    this._div.innerHTML = "";
+    return this._div;
+};
+legend.addTo(map);
+
+function setLoading(show) {
+    document.getElementById("loading").style.display = show ? "block" : "none";
+}
+
+function setStat(id, value) {
+    document.getElementById(id).textContent = value.toLocaleString();
+}
+
+function updateLegend(html) {
+    legend._div.innerHTML = html;
+}
+
+function updateStatus(message) {
+    document.getElementById("statusBar").textContent = message;
+}
+
+function setFocus(title, copy) {
+    document.getElementById("focusTitle").textContent = title;
+    document.getElementById("focusCopy").textContent = copy;
+    document.getElementById("focusPill").textContent = "Focus: " + title;
+}
+
+function updateMetricPill() {
+    document.getElementById("activeMetric").textContent = "Active climate: " + activeClimateLabel;
+}
+
+function buildBbox() {
+    var bounds = map.getBounds();
+    return [
+        bounds.getWest().toFixed(5),
+        bounds.getSouth().toFixed(5),
+        bounds.getEast().toFixed(5),
+        bounds.getNorth().toFixed(5)
+    ].join(",");
+}
+
+function fetchJson(url) {
+    return fetch(url).then(function (response) {
+        if (!response.ok) throw new Error("Request failed for " + url);
+        return response.json();
+    });
+}
+
+function updateLayerVisibility() {
+    var showSchools = document.getElementById("toggleSchools").checked;
+    var showCounties = document.getElementById("toggleCounties").checked;
+    var showSubcounties = document.getElementById("toggleSubcounties").checked;
+    var showClimate = document.getElementById("toggleClimate").checked;
+
+    if (showSchools) {
+        if (!map.hasLayer(schoolCluster)) map.addLayer(schoolCluster);
+    } else if (map.hasLayer(schoolCluster)) {
+        map.removeLayer(schoolCluster);
+    }
+
+    if (countyLayer) {
+        if (showCounties) {
+            if (!map.hasLayer(countyLayer)) map.addLayer(countyLayer);
+        } else if (map.hasLayer(countyLayer)) {
+            map.removeLayer(countyLayer);
+        }
+    }
+
+    if (subcountyLayer) {
+        if (showSubcounties) {
+            if (!map.hasLayer(subcountyLayer)) map.addLayer(subcountyLayer);
+        } else if (map.hasLayer(subcountyLayer)) {
+            map.removeLayer(subcountyLayer);
+        }
+    }
+
+    if (showClimate) {
+        if (!map.hasLayer(climateLayer)) map.addLayer(climateLayer);
+    } else if (map.hasLayer(climateLayer)) {
+        map.removeLayer(climateLayer);
+    }
+}
+
+function countyName(feature) {
+    return feature.properties.COUNTY || feature.properties.name || feature.properties.adm1_name || "County";
+}
+
+function subcountyName(feature) {
+    return feature.properties.adm2_name || feature.properties.name || "Subcounty";
+}
+
+function getTminColor(value) {
+    if (value < 8) return "#263d99";
+    if (value < 10) return "#2f62ba";
+    if (value < 15) return "#14838d";
+    if (value < 20) return "#2f9c56";
+    if (value < 25) return "#82b74f";
+    return "#efe267";
+}
+
+function getTmaxColor(value) {
+    if (value < 17) return "#4b9f51";
+    if (value < 20) return "#8ec64a";
+    if (value < 25) return "#d8d93f";
+    if (value < 30) return "#f5d74c";
+    if (value < 35) return "#ee8e29";
+    return "#d84b28";
+}
+
+function getRainColor(value) {
+    if (value < 1) return "#f5f3ef";
+    if (value < 10) return "#c8e36b";
+    if (value < 20) return "#74bf4b";
+    if (value < 50) return "#26a368";
+    if (value < 70) return "#5dd6db";
+    if (value < 100) return "#33ace3";
+    if (value < 120) return "#ffc65c";
+    return "#ef8040";
+}
+
+function generateLegendHTML(field) {
+    var html = "<b>" + activeClimateLabel + "</b><br>";
+    if (field === "tmin") {
+        html += "<i style='background:#263d99'></i> below 8 C<br>"
+             + "<i style='background:#2f62ba'></i> 8 to 10<br>"
+             + "<i style='background:#14838d'></i> 10 to 15<br>"
+             + "<i style='background:#2f9c56'></i> 15 to 20<br>"
+             + "<i style='background:#82b74f'></i> 20 to 25<br>"
+             + "<i style='background:#efe267'></i> above 25";
+    } else if (field === "tmax") {
+        html += "<i style='background:#4b9f51'></i> below 17 C<br>"
+             + "<i style='background:#8ec64a'></i> 17 to 20<br>"
+             + "<i style='background:#d8d93f'></i> 20 to 25<br>"
+             + "<i style='background:#f5d74c'></i> 25 to 30<br>"
+             + "<i style='background:#ee8e29'></i> 30 to 35<br>"
+             + "<i style='background:#d84b28'></i> above 35";
+    } else {
+        html += "<i style='background:#f5f3ef'></i> below 1 mm<br>"
+             + "<i style='background:#c8e36b'></i> 1 to 10<br>"
+             + "<i style='background:#74bf4b'></i> 10 to 20<br>"
+             + "<i style='background:#26a368'></i> 20 to 50<br>"
+             + "<i style='background:#5dd6db'></i> 50 to 70<br>"
+             + "<i style='background:#33ace3'></i> 70 to 100<br>"
+             + "<i style='background:#ffc65c'></i> 100 to 120<br>"
+             + "<i style='background:#ef8040'></i> above 120";
+    }
+    return html;
+}
+
+function renderClimate() {
+    climateLayer.clearLayers();
+    var colorFn = activeClimateField === "tmin" ? getTminColor : activeClimateField === "tmax" ? getTmaxColor : getRainColor;
+    climateCache.forEach(function (point) {
+        if (point[activeClimateField] === null || point[activeClimateField] === undefined) return;
+        L.circleMarker([point.lat, point.lon], {
+            radius: 3,
+            fillColor: colorFn(point[activeClimateField]),
+            color: "#3d403f",
+            weight: 0.2,
+            fillOpacity: 0.68
+        }).bindPopup(
+            "<strong>" + activeClimateLabel + "</strong><br>" +
+            "Value: " + Number(point[activeClimateField]).toFixed(1)
+        ).addTo(climateLayer);
+    });
+    setStat("statClimate", climateCache.length);
+    updateLegend(generateLegendHTML(activeClimateField));
+    updateLayerVisibility();
+}
+
+function showRain() {
+    activeClimateField = "rain";
+    activeClimateLabel = "Rainfall";
+    updateMetricPill();
+    renderClimate();
+}
+
+function showTmin() {
+    activeClimateField = "tmin";
+    activeClimateLabel = "Minimum Temperature";
+    updateMetricPill();
+    renderClimate();
+}
+
+function showTmax() {
+    activeClimateField = "tmax";
+    activeClimateLabel = "Maximum Temperature";
+    updateMetricPill();
+    renderClimate();
+}
+
+function refreshVisibleData() {
+    var bbox = buildBbox();
+    var currentSchoolRequest = ++schoolRequestId;
+    var currentClimateRequest = ++climateRequestId;
+
+    setLoading(true);
+    updateStatus("Loading schools and climate for the visible map window...");
+
+    fetchJson("/api/schools/?bbox=" + bbox + "&limit=4000")
+        .then(function (payload) {
+            if (currentSchoolRequest !== schoolRequestId) return;
+            var schools = payload.results || [];
+            schoolCluster.clearLayers();
+            schools.forEach(function (school) {
+                L.marker([school.lat, school.lon], { title: school.name }).bindPopup(
+                    "<strong>" + school.name + "</strong><br>" +
+                    "County: " + (school.county || "N/A") + "<br>" +
+                    "Subcounty: " + (school.sub_county || "N/A")
+                ).addTo(schoolCluster);
+            });
+            setStat("statSchools", schools.length);
+            updateLayerVisibility();
+        })
+        .catch(function () {
+            updateStatus("Failed to load schools for the visible area.");
+        });
+
+    fetchJson("/api/climate/?bbox=" + bbox + "&field=" + activeClimateField + "&limit=2500")
+        .then(function (payload) {
+            if (currentClimateRequest !== climateRequestId) return;
+            climateCache = payload.results || [];
+            renderClimate();
+            updateStatus("Visible data loaded for the current map view.");
+        })
+        .catch(function () {
+            updateStatus("Failed to load climate for the visible area.");
+        })
+        .finally(function () {
+            if (currentClimateRequest === climateRequestId) {
+                setLoading(false);
+            }
+        });
+}
+
+function scheduleRefresh() {
+    clearTimeout(loadTimer);
+    loadTimer = setTimeout(refreshVisibleData, 250);
+}
+
+function maybeLoadSubcounties() {
+    if (subcountiesLoaded || map.getZoom() < 8 || !document.getElementById("toggleSubcounties").checked) {
+        return;
+    }
+
+    fetchJson("/static/data/subcounties.geojson")
+        .then(function (data) {
+            subcountiesLoaded = true;
+            setStat("statSubcounties", data.features.length);
+            subcountyLayer = L.geoJSON(data, {
+                style: function () {
+                    return {
+                        color: "#6f8179",
+                        weight: 0.8,
+                        fillColor: "#ffffff",
+                        fillOpacity: 0.02
+                    };
+                },
+                onEachFeature: function (feature, layer) {
+                    var name = subcountyName(feature);
+                    layer.bindTooltip(name, { sticky: true });
+                    layer.on("click", function () {
+                        map.fitBounds(layer.getBounds(), { padding: [28, 28], maxZoom: 11 });
+                        setFocus(name, "Subcounty focus. Visible data is now loading for this map window.");
+                        scheduleRefresh();
+                    });
+                }
+            });
+            updateLayerVisibility();
+        });
+}
+
+function focusKenya() {
+    map.fitBounds(kenyaBounds.pad(-0.02));
+    setFocus("Whole Kenya", "National overview. The demo loads only visible schools and climate points.");
+}
+
+function resetExperience() {
+    document.getElementById("searchBox").value = "";
+    focusKenya();
+    scheduleRefresh();
+}
+
+function searchLocation() {
+    var query = document.getElementById("searchBox").value.trim().toLowerCase();
+    if (!query) {
+        alert("Type a county or subcounty.");
+        return;
+    }
+
+    var found = false;
+    if (countyLayer) {
+        countyLayer.eachLayer(function (layer) {
+            var name = countyName(layer.feature).toLowerCase();
+            if (!found && name === query) {
+                map.fitBounds(layer.getBounds(), { padding: [28, 28], maxZoom: 9 });
+                setFocus(countyName(layer.feature), "County focus. Visible schools and climate are now loading for this county.");
+                scheduleRefresh();
+                found = true;
+            }
+        });
+    }
+
+    if (!found && subcountyLayer) {
+        subcountyLayer.eachLayer(function (layer) {
+            var name = subcountyName(layer.feature).toLowerCase();
+            if (!found && name === query) {
+                map.fitBounds(layer.getBounds(), { padding: [28, 28], maxZoom: 11 });
+                setFocus(subcountyName(layer.feature), "Subcounty focus. Visible schools and climate are now loading for this subcounty.");
+                scheduleRefresh();
+                found = true;
+            }
+        });
+    }
+
+    if (!found) {
+        alert("County or subcounty not found. Zoom in and enable subcounties if needed.");
+    }
+}
+
+function initToggles() {
+    ["toggleSchools", "toggleCounties", "toggleSubcounties", "toggleClimate"].forEach(function (id) {
+        document.getElementById(id).addEventListener("change", function () {
+            updateLayerVisibility();
+            maybeLoadSubcounties();
+        });
+    });
+}
+
+function loadSummary() {
+    return fetchJson("/api/").then(function (payload) {
+        setStat("statCounties", payload.datasets.counties);
+        setStat("statSubcounties", 0);
+    });
+}
+
+function loadCounties() {
+    return fetchJson("/static/data/counties.geojson").then(function (data) {
+        countyLayer = L.geoJSON(data, {
+            style: function () {
+                return {
+                    color: "#394641",
+                    weight: 1.35,
+                    fillColor: "#efe0bd",
+                    fillOpacity: 0.16
+                };
+            },
+            onEachFeature: function (feature, layer) {
+                var name = countyName(feature);
+                layer.bindTooltip(name, { sticky: true });
+                layer.on("click", function () {
+                    map.fitBounds(layer.getBounds(), { padding: [28, 28], maxZoom: 9 });
+                    setFocus(name, "County focus. Visible schools and climate are now loading for this county.");
+                    scheduleRefresh();
+                });
+            }
+        }).addTo(map);
+    });
+}
+
+function bootstrap() {
+    initToggles();
+    updateMetricPill();
+    setFocus("Whole Kenya", "National overview. The demo loads only visible schools and climate points.");
+    updateStatus("Loading county layer first...");
+    setLoading(true);
+
+    Promise.all([loadSummary(), loadCounties()])
+        .then(function () {
+            updateStatus("Counties loaded. Loading visible schools and climate.");
+            focusKenya();
+            scheduleRefresh();
+        })
+        .catch(function () {
+            updateStatus("Failed to initialize the demo.");
+        })
+        .finally(function () {
+            setLoading(false);
+        });
+
+    map.on("moveend", function () {
+        maybeLoadSubcounties();
+        scheduleRefresh();
+    });
+}
+
+bootstrap();
+</script>
+</body>
+</html>

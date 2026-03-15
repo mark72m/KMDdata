@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kenya Region Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css"/>
+
+    <style>
+        html, body { height:100%; margin:0; font-family:Arial; }
+        #map { width:100%; height:100vh; }
+        .legend {
+            background:white; padding:10px; line-height:20px;
+            border-radius:5px; font-size:13px;
+            box-shadow:0 2px 6px rgba(0,0,0,0.2); max-width:220px; z-index:9999;
+        }
+        .legend i { width:18px; height:18px; float:left; margin-right:8px; opacity:0.9; border:1px solid #666; }
+        .legend b { display:block; margin-bottom:5px; border-bottom:1px solid #eee; padding-bottom:3px; }
+    </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+<script src="https://unpkg.com/@turf/turf/turf.min.js"></script>
+
+<script>
+// --- Get region from Django template ---
+const regionNameRaw = "{{ region }}";
+console.log("Raw region string from Django:", JSON.stringify(regionNameRaw));
+
+// --- Helper: normalize strings ---
+function normalize(str){
+    // trim, lowercase, remove spaces, newlines, tabs, and optional 'county' or 'subcounty' suffix
+    if(!str) return '';
+    return str
+        .toLowerCase()
+        .trim()
+        .replace(/\s+/g,'')      // remove extra spaces
+        .replace(/county$/,'')   // remove 'county' suffix if present
+        .replace(/subcounty$/,''); // remove 'subcounty' suffix if present
+}
+
+// --- Clean region string ---
+const regionName = normalize(regionNameRaw);
+console.log("Normalized region string to match:", regionName);
+
+// --- Initialize Map ---
+var map = L.map('map').setView([0.0236, 37.9062], 6);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18, attribution: '© OpenStreetMap contributors'
+}).addTo(map);
+
+// --- Legend ---
+var legend = L.control({position:'bottomleft'});
+legend.onAdd = function(map){ 
+    this._div = L.DomUtil.create('div','legend'); 
+    this._div.innerHTML=''; 
+    return this._div; 
+};
+legend.addTo(map);
+
+// --- Load GeoJSON and Data ---
+Promise.all([
+    fetch('/static/data/counties.geojson').then(r => r.json()),
+    fetch('/static/data/subcounties.geojson').then(r => r.json()),
+    fetch('/schools-data/').then(r => r.json()),
+    fetch('/climate-surface/').then(r => r.json())
+]).then(([counties, subcounties, schoolsData, climateData]) => {
+
+    // --- Log all available normalized names ---
+    console.log("All normalized county names:", counties.features.map(f => normalize(f.properties.adm1_name)));
+    console.log("All normalized subcounty names:", subcounties.features.map(f => normalize(f.properties.adm2_name)));
+
+    // --- Filter matching features ---
+    let countyFeatures = counties.features.filter(f => normalize(f.properties.adm1_name) === regionName);
+    let subcountyFeatures = subcounties.features.filter(f => normalize(f.properties.adm2_name) === regionName);
+
+    let featuresToDraw = countyFeatures.length ? countyFeatures : subcountyFeatures;
+
+    if(featuresToDraw.length === 0){
+        alert("Region not found! Check spelling or GeoJSON data.");
+        console.error("Region not found:", regionName);
+        return;
+    }
+
+    // --- Draw the selected region ---
+    let regionLayer = L.geoJSON(featuresToDraw, {
+        style: { color:'#444', fillColor:'#cce5ff', fillOpacity:0.3, weight:2 }
+    }).addTo(map);
+
+    // Fit map to the region bounds
+    map.fitBounds(regionLayer.getBounds(), {padding:[20,20], maxZoom:12});
+
+    // --- Add schools inside this region ---
+    let schoolCluster = L.markerClusterGroup();
+    schoolsData.forEach(s => {
+        if(s.lat && s.lon){
+            let schoolCounty = normalize(s.county);
+            let schoolSub = normalize(s.sub_county);
+            if(schoolCounty === regionName || schoolSub === regionName){
+                L.marker([s.lat,s.lon])
+                 .bindPopup(`<b>${s.name}</b><br>${s.county || ''} / ${s.sub_county || ''}`)
+                 .addTo(schoolCluster);
+            }
+        }
+    });
+    map.addLayer(schoolCluster);
+
+    // --- Add climate points inside the region ---
+    let climateLayer = L.layerGroup();
+    climateData.forEach(p => {
+        if(p.lat && p.lon){
+            let pt = turf.point([p.lon, p.lat]);
+            let inside = featuresToDraw.some(f => turf.booleanPointInPolygon(pt, f));
+            if(inside){
+                L.circleMarker([p.lat, p.lon], {
+                    radius:6, fillColor:'#39B54A', color:'#444', weight:0.5, fillOpacity:0.9
+                }).addTo(climateLayer);
+            }
+        }
+    });
+    map.addLayer(climateLayer);
+
+    console.log("Region loaded successfully:", regionName, featuresToDraw);
+});
+</script>
+</body>
+</html>

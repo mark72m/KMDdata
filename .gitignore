@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.local
+
+# Django / local runtime
+staticfiles/
+server.out.log
+server.err.log
+db.sqlite3
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local office/temp files
+.~lock.*
+
+# Large or unrelated local artifacts
+laravel_project/
+temp_wsgi_server.py
+ke_shp/
+ke_shp.zip
+kenya_counties.zip
+schools.xlsx
