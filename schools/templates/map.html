@@ -137,6 +137,57 @@ function updateStatus(message) {
     document.getElementById("statusBar").textContent = message;
 }
 
+function escapeHtml(value) {
+    return String(value || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/\"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+}
+
+function buildSchoolPopupContent(school, detail) {
+    var info = detail || school || {};
+    return "<b>" + escapeHtml(school.name) + "</b><br>"
+        + "UIC: " + escapeHtml(info.UIC || "N/A") + "<br>"
+        + "KNEC: " + escapeHtml(info.knec_code || "N/A") + "<br>"
+        + "Region: " + escapeHtml(info.region || "N/A") + "<br>"
+        + "County: " + escapeHtml(info.county || school.county || "N/A") + "<br>"
+        + "Sub-county: " + escapeHtml(info.sub_county || school.sub_county || "N/A") + "<br>"
+        + "Division: " + escapeHtml(info.division || "N/A") + "<br>"
+        + "Zone: " + escapeHtml(info.zone || "N/A");
+}
+
+function loadSchoolDetail(marker, school) {
+    if (marker.schoolDetailLoaded) {
+        return;
+    }
+
+    marker.schoolDetailLoaded = true;
+    marker.setPopupContent("<b>" + escapeHtml(school.name) + "</b><br>Loading school details...");
+
+    var params = new URLSearchParams({
+        name: school.name || "",
+        county: school.county || "",
+        sub_county: school.sub_county || ""
+    });
+
+    fetch("/school-detail/?" + params.toString())
+        .then(function (res) { return res.json(); })
+        .then(function (detail) {
+            marker.setPopupContent(buildSchoolPopupContent(school, detail));
+            if (marker.isPopupOpen()) {
+                marker.openPopup();
+            }
+        })
+        .catch(function () {
+            marker.setPopupContent(buildSchoolPopupContent(school));
+            if (marker.isPopupOpen()) {
+                marker.openPopup();
+            }
+        });
+}
+
 function refreshStatus() {
     var parts = [];
     parts.push(countyLayer ? "Counties loaded" : "Counties pending");
@@ -404,16 +455,11 @@ fetch("/schools-data/")
     .then(function (data) {
         data.forEach(function (school) {
             if (!school.lat || !school.lon) return;
-            var marker = L.marker([school.lat, school.lon], {title: school.name}).bindPopup(
-                "<b>" + school.name + "</b><br>"
-                + "UIC: " + (school.UIC || "N/A") + "<br>"
-                + "KNEC: " + (school.knec_code || "N/A") + "<br>"
-                + "Region: " + (school.region || "N/A") + "<br>"
-                + "County: " + (school.county || "N/A") + "<br>"
-                + "Sub-county: " + (school.sub_county || "N/A") + "<br>"
-                + "Division: " + (school.division || "N/A") + "<br>"
-                + "Zone: " + (school.zone || "N/A")
-            );
+            let marker = L.marker([school.lat, school.lon], {title: school.name})
+                .bindPopup(buildSchoolPopupContent(school))
+                .on("popupopen", function () {
+                    loadSchoolDetail(marker, school);
+                });
             schoolCluster.addLayer(marker);
             allSchools.push({
                 marker: marker,

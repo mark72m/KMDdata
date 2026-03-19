@@ -6,6 +6,7 @@ urlpatterns = [
     path('map/', views.map_view, name='map'),  # main map
     path('region/', views.region_view, name='region'),  # new region page
     path('schools-data/', views.schools_data, name='schools-data'),
+    path('school-detail/', views.school_detail, name='school-detail'),
     path('climate-surface/', views.climate_surface, name='climate_surface'),
     path('climate-metadata/', views.climate_metadata, name='climate_metadata'),
     path('api/', views.api_index, name='api_index'),

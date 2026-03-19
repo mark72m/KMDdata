@@ -340,7 +340,63 @@ def apply_climate_filters(data, request):
 
 
 def schools_data(request):
-    return JsonResponse(get_school_data(), safe=False)
+    return JsonResponse(load_school_json(), safe=False)
+
+
+def school_detail(request):
+    name = (request.GET.get("name") or "").strip()
+    county = (request.GET.get("county") or "").strip()
+    sub_county = (request.GET.get("sub_county") or "").strip()
+
+    if not name:
+        return JsonResponse({"detail": "name is required"}, status=400)
+
+    try:
+        school = (
+            School.objects.filter(institution_name__iexact=name)
+            .filter(county__iexact=county) if county else School.objects.filter(institution_name__iexact=name)
+        )
+        if sub_county:
+            school = school.filter(sub_county__iexact=sub_county)
+        school = school.values(
+            "institution_name",
+            "UIC",
+            "knec_code",
+            "region",
+            "county",
+            "sub_county",
+            "division",
+            "zone",
+        ).first()
+    except (OperationalError, DatabaseError):
+        school = None
+
+    if not school:
+        return JsonResponse(
+            {
+                "name": name,
+                "UIC": None,
+                "knec_code": None,
+                "region": None,
+                "county": county or None,
+                "sub_county": sub_county or None,
+                "division": None,
+                "zone": None,
+            }
+        )
+
+    return JsonResponse(
+        {
+            "name": school.get("institution_name"),
+            "UIC": school.get("UIC"),
+            "knec_code": school.get("knec_code"),
+            "region": school.get("region"),
+            "county": school.get("county"),
+            "sub_county": school.get("sub_county"),
+            "division": school.get("division"),
+            "zone": school.get("zone"),
+        }
+    )
 
 
 def climate_surface(request):
