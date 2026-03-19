@@ -144,6 +144,7 @@ def load_school_json():
     return data
 
 
+@lru_cache(maxsize=1)
 def load_school_db():
     data = []
     for school in School.objects.all():
@@ -174,12 +175,16 @@ def load_school_db():
 
 def get_school_data():
     try:
+        db_data = load_school_db()
+        if db_data:
+            return db_data
+    except (OperationalError, DatabaseError):
+        pass
+
+    try:
         return load_school_json()
     except Exception:
-        try:
-            return load_school_db()
-        except (OperationalError, DatabaseError):
-            return []
+        return []
 
 
 @lru_cache(maxsize=4)
